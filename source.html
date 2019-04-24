@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="">
+  <title data-ice="title">Source | @ali/lib-js-sdk</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="js sdk for aliwx"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@ali/lib-js-sdk"><meta property="twitter:description" content="js sdk for aliwx"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrap">bootstrap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#apis">apis</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionBarShow">actionBarShow</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-addAppBookMark">addAppBookMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-allowPullRefresh">allowPullRefresh</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-authorHomeFinished">authorHomeFinished</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-bookstoreVerify">bookstoreVerify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-browseImages">browseImages</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppAuth">callAppAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppBuyBook">callAppBuyBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppBuyMonthly">callAppBuyMonthly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppCommentListFinish">callAppCommentListFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppTalkDetailPageFinish">callAppTalkDetailPageFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callApplySkin">callApplySkin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-back">back</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callCancelDownloadApp">callCancelDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callDownloadApp">callDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-invokeApp">invokeApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isAppInstalled">isAppInstalled</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-loginOrBindTaobao">loginOrBindTaobao</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callPauseDownloadApp">callPauseDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRefreshBookShelfBanner">callRefreshBookShelfBanner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRefreshPersonalAccount">callRefreshPersonalAccount</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRegisterAppDownloadListener">callRegisterAppDownloadListener</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callResumeDownloadApp">callResumeDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-changeLoginUser">changeLoginUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-changeTitleBackground">changeTitleBackground</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-checkDownloadAppState">checkDownloadAppState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-clickReplyComment">clickReplyComment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-closeLoading">closeLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-controlLoading">controlLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showError">showError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-controlWebPage">controlWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-copy">copy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getActionBarSize">getActionBarSize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getAlipayAuthCode">getAlipayAuthCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getAppInfo">getAppInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getBookMark">getBookMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getBookMarks">getBookMarks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getCoverBookCurrentChapterIndex">getCoverBookCurrentChapterIndex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getDownloadBookInfo">getDownloadBookInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getGiftBookShelfMark">getGiftBookShelfMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getGiftCachedBooks">getGiftCachedBooks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getMemberInfo">getMemberInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getSkinList">getSkinList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getSkinState">getSkinState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getThirdPartUserInfo">getThirdPartUserInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getUserInfo">getUserInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-giftSelectedBooks">giftSelectedBooks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-hiddenAppNav">hiddenAppNav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-hideLoadingView">hideLoadingView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isCallAppUrl">isCallAppUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isNeedNotifyNoWifi">isNeedNotifyNoWifi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationApp">navigationApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationPreferenceSet">navigationPreferenceSet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationTabBrowser">navigationTabBrowser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyBackToView">notifyBackToView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyBookCoverFinish">notifyBookCoverFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyRefreshFinish">notifyRefreshFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifySkinDetailFinish">notifySkinDetailFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openActivitySendShare">openActivitySendShare</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppBookClassPage">openAppBookClassPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppBookMakeComment">openAppBookMakeComment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppTabWebPage">openAppTabWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAudioBook">openAudioBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCatalog">openBookCatalog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCommentDetail">openBookCommentDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCommentList">openBookCommentList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCover">openBookCover</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookShelf">openBookShelf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookStore">openBookStore</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookToReward">openBookToReward</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCommonwealDetail">openCommonwealDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCommonwealTask">openCommonwealTask</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openFansBand">openFansBand</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openLoginActivity">openLoginActivity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openMonthlyArea">openMonthlyArea</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openNativeTest">openNativeTest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openPurchasedChapter">openPurchasedChapter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openRechargePage">openRechargePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openRewardToReply">openRewardToReply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSendShareData">openSendShareData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSignInPage">openSignInPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSkinDetail">openSkinDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSkinMall">openSkinMall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openTalkDetailPage">openTalkDetailPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openTopicDetailPage">openTopicDetailPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCouponInfo">openCouponInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openWebPage">openWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-paste">paste</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-readOriginalBook">readOriginalBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-readPayBook">readPayBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-saveTicketInfo">saveTicketInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setActionBarColor">setActionBarColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setActionBarTitleAlpha">setActionBarTitleAlpha</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setCurimgcolor">setCurimgcolor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setWebLongClickEnable">setWebLongClickEnable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareImage">shareImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareMyCommonweal">shareMyCommonweal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareUrl">shareUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showAppNavigationTitle">showAppNavigationTitle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showCalendar">showCalendar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showDialog">showDialog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showGiftPayComponent">showGiftPayComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showLoadingView">showLoadingView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showMenuWithBID">showMenuWithBID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showSkinDownloadBtn">showSkinDownloadBtn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-toast">toast</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-updateBookSourceRid">updateBookSourceRid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-voteMonthTicket">voteMonthTicket</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-voteRecommendTicket">voteRecommendTicket</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-cmds">constants/cmds</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ACTION_BAR_SHOW">CMD_ACTION_BAR_SHOW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ADD_APP_BOOK_MARK">CMD_ADD_APP_BOOK_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ALLOW_PULL_REFRESH">CMD_ALLOW_PULL_REFRESH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_AUTHOR_HOME_FINISHED">CMD_AUTHOR_HOME_FINISHED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BACK_ACTION">CMD_BACK_ACTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BOOKSTORE_VERIFY">CMD_BOOKSTORE_VERIFY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BROWSE_IMAGES">CMD_BROWSE_IMAGES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APPLY_SKIN">CMD_CALL_APPLY_SKIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_AUTH">CMD_CALL_APP_AUTH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_BOOK">CMD_CALL_APP_BUY_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_MONTHLY">CMD_CALL_APP_BUY_MONTHLY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_COMMENT_LIST_FINISH">CMD_CALL_APP_COMMENT_LIST_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH">CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_CANCEL_DOWNLOAD_APP">CMD_CALL_CANCEL_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_DOWNLOAD_APP">CMD_CALL_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_INVOKE_APP">CMD_CALL_INVOKE_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_IS_INSTALL_APP">CMD_CALL_IS_INSTALL_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_LOGIN_BIND_TAOBAO">CMD_CALL_LOGIN_BIND_TAOBAO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_PAUSE_DOWNLOAD_APP">CMD_CALL_PAUSE_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_BOOKSHELF_BANNER">CMD_CALL_REFRESH_BOOKSHELF_BANNER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_PERSONAL_ACCOUNT">CMD_CALL_REFRESH_PERSONAL_ACCOUNT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_RESUME_DOWNLOAD_APP">CMD_CALL_RESUME_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHANGE_LOGIN_USER">CMD_CHANGE_LOGIN_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHANGE_TITLE_BACKGROUND">CMD_CHANGE_TITLE_BACKGROUND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHECK_DOWNLOAD_APP_STATE">CMD_CHECK_DOWNLOAD_APP_STATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CLICK_REPLY_COMMENT">CMD_CLICK_REPLY_COMMENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CLOSE_LOADING">CMD_CLOSE_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CONTROL_LOADING">CMD_CONTROL_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CONTROL_WEB_PAGE">CMD_CONTROL_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_COPY">CMD_COPY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_ACTION_BAR_SIZE">CMD_GET_ACTION_BAR_SIZE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_ALIPAY_AUTH_CODE">CMD_GET_ALIPAY_AUTH_CODE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_APP_INFO">CMD_GET_APP_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_CURRENT_CHAPTER_INDEX">CMD_GET_BOOK_CURRENT_CHAPTER_INDEX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARK">CMD_GET_BOOK_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARKS">CMD_GET_BOOK_MARKS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_DOWNLOAD_BOOK_INFO">CMD_GET_DOWNLOAD_BOOK_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_GIFT_BOOK_SHELF_MARK">CMD_GET_GIFT_BOOK_SHELF_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_GIFT_CACHED_BOOKS">CMD_GET_GIFT_CACHED_BOOKS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_MEMBER_INFO">CMD_GET_MEMBER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_SKIN_LIST">CMD_GET_SKIN_LIST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_SKIN_STATE">CMD_GET_SKIN_STATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_THIRD_PART_USERINFO">CMD_GET_THIRD_PART_USERINFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_USER_INFO">CMD_GET_USER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GIFT_SELECTED_BOOK">CMD_GIFT_SELECTED_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_HIDDEN_APP_NAV">CMD_HIDDEN_APP_NAV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_HIDE_LOADING_VIEW">CMD_HIDE_LOADING_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_IS_CALL_APP_URL">CMD_IS_CALL_APP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_IS_NEED_NOTIFY_NO_WIFI">CMD_IS_NEED_NOTIFY_NO_WIFI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_APP">CMD_NAVIGATION_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_PREFERENCE_SET">CMD_NAVIGATION_PREFERENCE_SET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_TAB_BROWSER">CMD_NAVIGATION_TAB_BROWSER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_BACK_TO_VIEW">CMD_NOTIFY_BACK_TO_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_BOOK_COVER_FINISH">CMD_NOTIFY_BOOK_COVER_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_REFRESH_FINISH">CMD_NOTIFY_REFRESH_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_SKIN_DETAIL_FINISH">CMD_NOTIFY_SKIN_DETAIL_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_ACTIVITY_SEND_SHARE">CMD_OPEN_ACTIVITY_SEND_SHARE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_CLASS_PAGE">CMD_OPEN_APP_BOOK_CLASS_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_MAKE_COMMENT">CMD_OPEN_APP_BOOK_MAKE_COMMENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_TAB_WEB_PAGE">CMD_OPEN_APP_TAB_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_AUDIO_BOOK">CMD_OPEN_AUDIO_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_CATALOG">CMD_OPEN_BOOK_CATALOG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_DETAIL">CMD_OPEN_BOOK_COMMENT_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_LIST">CMD_OPEN_BOOK_COMMENT_LIST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COVER">CMD_OPEN_BOOK_COVER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_SHELF">CMD_OPEN_BOOK_SHELF</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_STORE">CMD_OPEN_BOOK_STORE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_TO_REWARD">CMD_OPEN_BOOK_TO_REWARD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_DETAIL">CMD_OPEN_COMMONWEAL_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_TASK">CMD_OPEN_COMMONWEAL_TASK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COUPON_INFO">CMD_OPEN_COUPON_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_FANS_BAND">CMD_OPEN_FANS_BAND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_LOGIN_ACTIVITY">CMD_OPEN_LOGIN_ACTIVITY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_MONTHLY_AREA">CMD_OPEN_MONTHLY_AREA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_NATIVE_TEST">CMD_OPEN_NATIVE_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_PURCHASED_CHAPTER">CMD_OPEN_PURCHASED_CHAPTER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_RECHARGE_PAGE">CMD_OPEN_RECHARGE_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_REWARD_TO_REPLY">CMD_OPEN_REWARD_TO_REPLY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SEND_SHARE_DATA">CMD_OPEN_SEND_SHARE_DATA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SIGN_IN_PAGE">CMD_OPEN_SIGN_IN_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_DETAIL">CMD_OPEN_SKIN_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_MALL">CMD_OPEN_SKIN_MALL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_TALK_DETAIL_PAGE">CMD_OPEN_TALK_DETAIL_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_TOPIC_DETAIL_PAGE">CMD_OPEN_TOPIC_DETAIL_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_WEB_PAGE">CMD_OPEN_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_PASTE">CMD_PASTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_READ_BOOK">CMD_READ_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_READ_ORIGINAL_BOOK">CMD_READ_ORIGINAL_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_REGISTER_APP_DOWNLOAD_LISTENER">CMD_REGISTER_APP_DOWNLOAD_LISTENER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SAVE_TICKET_INFO">CMD_SAVE_TICKET_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_COLOR">CMD_SET_ACTIONBAR_COLOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_TITLE_ALPHA">CMD_SET_ACTIONBAR_TITLE_ALPHA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_CURIMGCOLOR">CMD_SET_CURIMGCOLOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_WEB_LONGCLICK_ENABLE">CMD_SET_WEB_LONGCLICK_ENABLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE">CMD_SHARE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE_IMAGE">CMD_SHARE_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE_MY_COMMONWEAL">CMD_SHARE_MY_COMMONWEAL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_APP_NAVIGATION_TITLE">CMD_SHOW_APP_NAVIGATION_TITLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_CALENDAR">CMD_SHOW_CALENDAR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_DIALOG">CMD_SHOW_DIALOG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_ERROR">CMD_SHOW_ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_GIFT_PAY_COMPONENT">CMD_SHOW_GIFT_PAY_COMPONENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_LOADING_VIEW">CMD_SHOW_LOADING_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_MENU_WITH_BID">CMD_SHOW_MENU_WITH_BID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_SKIN_DOWNLOAD_BTN">CMD_SHOW_SKIN_DOWNLOAD_BTN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_TOAST">CMD_TOAST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_UPDATE_BOOK_SOURCE_RID">CMD_UPDATE_BOOK_SOURCE_RID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_VOTE_MONTH_TICKET">CMD_VOTE_MONTH_TICKET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_VOTE_RECOMMEND_TICKET">CMD_VOTE_RECOMMEND_TICKET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Command">Command</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-errors">constants/errors</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_EXCEPTION">ERR_API_EXCEPTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_FAILED">ERR_API_FAILED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_INVALID_PARAMS">ERR_API_INVALID_PARAMS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_INVALID_RESULT">ERR_API_INVALID_RESULT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_NO_PERMISSION">ERR_API_NO_PERMISSION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_TIMEOUT">ERR_API_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_UNAVAILABLE">ERR_API_UNAVAILABLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_UNKNOWN">ERR_API_UNKNOWN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_USER_CANCELLED">ERR_API_USER_CANCELLED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_USER_DENIED">ERR_API_USER_DENIED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_INVALID_UA">ERR_INVALID_UA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_UNKNOWN">ERR_UNKNOWN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_ERRORS_TO_INTERNAL_MAP">WV_ERRORS_TO_INTERNAL_MAP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_SUCCESS_CODES">WV_SUCCESS_CODES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ErrorConstant">ErrorConstant</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-globals">constants/globals</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_PREFIX">GLOBAL_CALLBACK_PREFIX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_SET">GLOBAL_CALLBACK_SET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_ENV_NAME">GLOBAL_ENV_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME">GLOBAL_LIB_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_CAP">GLOBAL_LIB_NAME_CAP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_KEBAB">GLOBAL_LIB_NAME_KEBAB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG">GLOBAL_PRESET_CONFIG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG_KEY">GLOBAL_PRESET_CONFIG_KEY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_READY_HOOK_NAME">GLOBAL_READY_HOOK_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-internals">constants/internals</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY">BRIDGE_NAME_LEGACY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY_TMREADER">BRIDGE_NAME_LEGACY_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_DELAY">BRIDGE_REQUEST_DELAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_TIMEOUT">BRIDGE_REQUEST_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_EVENT">CLIENT_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DEFAULT_API_TIMEOUT">DEFAULT_API_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EVT_READY">EVT_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_EVENTS_STATUS_ATTR">GLOBAL_EVENTS_STATUS_ATTR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_API_SUPPORTS">INTERNAL_API_SUPPORTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_CLIENT_EVENT">INTERNAL_CLIENT_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_CONFIG">INTERNAL_CONFIG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_IS_ENV_READY">INTERNAL_IS_ENV_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_IS_LIB_READY">INTERNAL_IS_LIB_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_PUSH">INTERNAL_PUSH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_RAW_ERROR">INTERNAL_RAW_ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_ALIPAY_EVENT">MINI_ALIPAY_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_ANDROID">SUPPORT_ANDROID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_IOS">SUPPORT_IOS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_ALIPAY_SQREADER">SUPPORT_MINIPROGRAM_ALIPAY_SQREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_TB_TMREADER">SUPPORT_MINIPROGRAM_TB_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE">SUPPORT_WINDVANE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID">SUPPORT_WINDVANE_ANDROID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID_TMREADER">SUPPORT_WINDVANE_ANDROID_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS">SUPPORT_WINDVANE_IOS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS_TMREADER">SUPPORT_WINDVANE_IOS_TMREADER</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-wv-ios">constants/wv-ios</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_HOME">MINI_MED_ALIPAY_HOME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_INFO">MINI_MED_ALIPAY_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_NAVIGATOR">MINI_MED_ALIPAY_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_TM_NAVIGATOR">MINI_MED_TM_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE">SHARE_INFO_CHANGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE_ALIPAY">SHARE_INFO_CHANGE_ALIPAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BASE_UI">WV_CLS_IOS_BASE_UI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOKMARK">WV_CLS_IOS_BOOKMARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_COVER">WV_CLS_IOS_BOOK_COVER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_MODEL">WV_CLS_IOS_BOOK_MODEL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_CUSTOM">WV_CLS_IOS_CUSTOM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_ENV">WV_CLS_IOS_ENV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_NAVIGATOR">WV_CLS_IOS_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_USER">WV_CLS_IOS_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_NAVIGATOR">WV_CLS_TMIOS_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_USER">WV_CLS_TMIOS_USER</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneJSON">cloneJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-detectEnv">detectEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateAPI">generateAPI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateSDKError">generateSDKError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unifiedErrorHandler">unifiedErrorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Environment">Environment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-APIConfig">APIConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-APIConfigs">APIConfigs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-events">utils/events</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bindEvent">bindEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildEvent">buildEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clientEventDispatcher">clientEventDispatcher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dispatchAsEvent">dispatchAsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dispatchEvent">dispatchEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseClientEvent">parseClientEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unbindEvent">unbindEvent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-exec">utils/exec</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-decodeResult">decodeResult</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-delayedGetLegacyBridge">delayedGetLegacyBridge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-encodeParams">encodeParams</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-exec">exec</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execLegacy">execLegacy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execMiNi">execMiNi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execWV">execWV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flushCMDs">flushCMDs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getApiByCMDName">getApiByCMDName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLegacyBridge">getLegacyBridge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isCMDSupported">isCMDSupported</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-global">utils/global</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrapGlobalEnv">bootstrapGlobalEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrapGlobalLib">bootstrapGlobalLib</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getGlobalEnv">getGlobalEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getGlobalLib">getGlobalLib</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initGlobalEvents">initGlobalEvents</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-is-a">utils/is-a</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isArray">isArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isFunction">isFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNumber">isNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isObject">isObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isString">isString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-log">utils/log</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-alert">alert</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-debug">debug</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-debugAlert">debugAlert</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-info">info</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-log">log</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-warn">warn</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">401/591</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+    
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/action-bar-show.js.html#errorLines=8">src/apis/action-bar-show.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-actionBarShow">actionBarShow</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1139 byte</td>
+      <td style="display: none;" data-ice="lines">56</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 02:21:58 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/add-app-book-mark.js.html#errorLines=21,22,23,53,60">src/apis/add-app-book-mark.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-addAppBookMark">addAppBookMark</a></span></td>
+      <td class="coverage"><span data-ice="coverage">44 %</span><span data-ice="coverageCount" class="coverage-count">4/9</span></td>
+      <td style="display: none;" data-ice="size">3279 byte</td>
+      <td style="display: none;" data-ice="lines">125</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 08:08:16 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/allow-pull-refresh.js.html#errorLines=6">src/apis/allow-pull-refresh.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-allowPullRefresh">allowPullRefresh</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1020 byte</td>
+      <td style="display: none;" data-ice="lines">47</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 02:46:34 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/author-home-finished.js.html#errorLines=7">src/apis/author-home-finished.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-authorHomeFinished">authorHomeFinished</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1016 byte</td>
+      <td style="display: none;" data-ice="lines">46</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 02:46:29 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/bookstore-verify.js.html#errorLines=48,52">src/apis/bookstore-verify.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-bookstoreVerify">bookstoreVerify</a></span></td>
+      <td class="coverage"><span data-ice="coverage">71 %</span><span data-ice="coverageCount" class="coverage-count">5/7</span></td>
+      <td style="display: none;" data-ice="size">2026 byte</td>
+      <td style="display: none;" data-ice="lines">97</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 02:46:22 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/browse-images.js.html#errorLines=19,5">src/apis/browse-images.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-browseImages">browseImages</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">2308 byte</td>
+      <td style="display: none;" data-ice="lines">81</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:16:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-app-auth.js.html#errorLines=11,36">src/apis/call-app-auth.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callAppAuth">callAppAuth</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">4/6</span></td>
+      <td style="display: none;" data-ice="size">1848 byte</td>
+      <td style="display: none;" data-ice="lines">82</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:16:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-app-buy-book.js.html">src/apis/call-app-buy-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callAppBuyBook">callAppBuyBook</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1242 byte</td>
+      <td style="display: none;" data-ice="lines">48</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:16:15 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-app-buy-monthliy.js.html#errorLines=22,28">src/apis/call-app-buy-monthliy.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callAppBuyMonthly">callAppBuyMonthly</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">1585 byte</td>
+      <td style="display: none;" data-ice="lines">66</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:16:41 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-app-comment-list-finish.js.html">src/apis/call-app-comment-list-finish.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callAppCommentListFinish">callAppCommentListFinish</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1154 byte</td>
+      <td style="display: none;" data-ice="lines">41</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:20:40 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-app-talk-detail-page-finish.js.html">src/apis/call-app-talk-detail-page-finish.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callAppTalkDetailPageFinish">callAppTalkDetailPageFinish</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1019 byte</td>
+      <td style="display: none;" data-ice="lines">35</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:22:20 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-apply-skin.js.html#errorLines=9">src/apis/call-apply-skin.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callApplySkin">callApplySkin</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">712 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:24:16 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-back-action.js.html#errorLines=20">src/apis/call-back-action.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-back">back</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">593 byte</td>
+      <td style="display: none;" data-ice="lines">35</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-cancel-download-app.js.html">src/apis/call-cancel-download-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callCancelDownloadApp">callCancelDownloadApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1074 byte</td>
+      <td style="display: none;" data-ice="lines">49</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:25:57 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-download-app.js.html#errorLines=73">src/apis/call-download-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callDownloadApp">callDownloadApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">87 %</span><span data-ice="coverageCount" class="coverage-count">7/8</span></td>
+      <td style="display: none;" data-ice="size">2370 byte</td>
+      <td style="display: none;" data-ice="lines">117</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:26:59 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-invoke-app.js.html#errorLines=59,64">src/apis/call-invoke-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-invokeApp">invokeApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">71 %</span><span data-ice="coverageCount" class="coverage-count">5/7</span></td>
+      <td style="display: none;" data-ice="size">1967 byte</td>
+      <td style="display: none;" data-ice="lines">105</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:34:58 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-is-install-app.js.html#errorLines=59,63">src/apis/call-is-install-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-isAppInstalled">isAppInstalled</a></span></td>
+      <td class="coverage"><span data-ice="coverage">71 %</span><span data-ice="coverageCount" class="coverage-count">5/7</span></td>
+      <td style="display: none;" data-ice="size">2163 byte</td>
+      <td style="display: none;" data-ice="lines">105</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:37:25 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-login-bind-taobao.js.html#errorLines=60,64">src/apis/call-login-bind-taobao.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-loginOrBindTaobao">loginOrBindTaobao</a></span></td>
+      <td class="coverage"><span data-ice="coverage">71 %</span><span data-ice="coverageCount" class="coverage-count">5/7</span></td>
+      <td style="display: none;" data-ice="size">1968 byte</td>
+      <td style="display: none;" data-ice="lines">101</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:39:22 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-pause-download-app.js.html">src/apis/call-pause-download-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callPauseDownloadApp">callPauseDownloadApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1071 byte</td>
+      <td style="display: none;" data-ice="lines">49</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:55:20 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-refresh-bookshelf-banner.js.html">src/apis/call-refresh-bookshelf-banner.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callRefreshBookShelfBanner">callRefreshBookShelfBanner</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">856 byte</td>
+      <td style="display: none;" data-ice="lines">38</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:55:15 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-refresh-personal-account.js.html#errorLines=9">src/apis/call-refresh-personal-account.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callRefreshPersonalAccount">callRefreshPersonalAccount</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">733 byte</td>
+      <td style="display: none;" data-ice="lines">33</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:55:07 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-register-app-download-listener.js.html#errorLines=74">src/apis/call-register-app-download-listener.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callRegisterAppDownloadListener">callRegisterAppDownloadListener</a></span></td>
+      <td class="coverage"><span data-ice="coverage">87 %</span><span data-ice="coverageCount" class="coverage-count">7/8</span></td>
+      <td style="display: none;" data-ice="size">2643 byte</td>
+      <td style="display: none;" data-ice="lines">124</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:54:59 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/call-resume-download-app.js.html#errorLines=73">src/apis/call-resume-download-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-callResumeDownloadApp">callResumeDownloadApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">87 %</span><span data-ice="coverageCount" class="coverage-count">7/8</span></td>
+      <td style="display: none;" data-ice="size">2422 byte</td>
+      <td style="display: none;" data-ice="lines">117</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:54:59 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/change-login-user.js.html#errorLines=10,46,54">src/apis/change-login-user.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-changeLoginUser">changeLoginUser</a></span></td>
+      <td class="coverage"><span data-ice="coverage">57 %</span><span data-ice="coverageCount" class="coverage-count">4/7</span></td>
+      <td style="display: none;" data-ice="size">1954 byte</td>
+      <td style="display: none;" data-ice="lines">95</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:54:59 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/change-title-background.js.html">src/apis/change-title-background.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-changeTitleBackground">changeTitleBackground</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1090 byte</td>
+      <td style="display: none;" data-ice="lines">41</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:56:02 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/check-download-app-state.js.html#errorLines=74">src/apis/check-download-app-state.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-checkDownloadAppState">checkDownloadAppState</a></span></td>
+      <td class="coverage"><span data-ice="coverage">87 %</span><span data-ice="coverageCount" class="coverage-count">7/8</span></td>
+      <td style="display: none;" data-ice="size">2474 byte</td>
+      <td style="display: none;" data-ice="lines">118</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:57:28 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/click-reply-comment.js.html">src/apis/click-reply-comment.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-clickReplyComment">clickReplyComment</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1612 byte</td>
+      <td style="display: none;" data-ice="lines">65</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 03:59:30 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/control-loading.js.html#errorLines=30,33,70,8,88">src/apis/control-loading.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-closeLoading">closeLoading</a></span>
+<span><a href="variable/index.html#static-variable-controlLoading">controlLoading</a></span>
+<span><a href="variable/index.html#static-variable-showError">showError</a></span></td>
+      <td class="coverage"><span data-ice="coverage">16 %</span><span data-ice="coverageCount" class="coverage-count">1/6</span></td>
+      <td style="display: none;" data-ice="size">2266 byte</td>
+      <td style="display: none;" data-ice="lines">104</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 04:01:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/control-web-page.js.html">src/apis/control-web-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-controlWebPage">controlWebPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">660 byte</td>
+      <td style="display: none;" data-ice="lines">32</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 04:06:18 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/copy.js.html">src/apis/copy.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-copy">copy</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">789 byte</td>
+      <td style="display: none;" data-ice="lines">39</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 04:07:41 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-action-bar-size.js.html">src/apis/get-action-bar-size.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getActionBarSize">getActionBarSize</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">802 byte</td>
+      <td style="display: none;" data-ice="lines">33</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 04:07:54 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-alipay-auth-code.js.html#errorLines=10,46,54">src/apis/get-alipay-auth-code.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getAlipayAuthCode">getAlipayAuthCode</a></span></td>
+      <td class="coverage"><span data-ice="coverage">57 %</span><span data-ice="coverageCount" class="coverage-count">4/7</span></td>
+      <td style="display: none;" data-ice="size">1968 byte</td>
+      <td style="display: none;" data-ice="lines">94</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:03:46 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-app-info.js.html">src/apis/get-app-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getAppInfo">getAppInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1874 byte</td>
+      <td style="display: none;" data-ice="lines">77</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:04:49 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-book-mark.js.html">src/apis/get-book-mark.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getBookMark">getBookMark</a></span>
+<span><a href="variable/index.html#static-variable-getBookMarks">getBookMarks</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1424 byte</td>
+      <td style="display: none;" data-ice="lines">68</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:06:46 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-cover-book-current-chapter-index.js.html#errorLines=7">src/apis/get-cover-book-current-chapter-index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getCoverBookCurrentChapterIndex">getCoverBookCurrentChapterIndex</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1381 byte</td>
+      <td style="display: none;" data-ice="lines">51</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:07:52 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-download-book-info.js.html">src/apis/get-download-book-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getDownloadBookInfo">getDownloadBookInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1070 byte</td>
+      <td style="display: none;" data-ice="lines">45</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:08:54 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-gift-book-shelf-mark.js.html#errorLines=10,46,54,59,63">src/apis/get-gift-book-shelf-mark.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getGiftBookShelfMark">getGiftBookShelfMark</a></span></td>
+      <td class="coverage"><span data-ice="coverage">44 %</span><span data-ice="coverageCount" class="coverage-count">4/9</span></td>
+      <td style="display: none;" data-ice="size">2306 byte</td>
+      <td style="display: none;" data-ice="lines">109</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:10:13 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-gift-cached-book.js.html#errorLines=10,46,54,58">src/apis/get-gift-cached-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getGiftCachedBooks">getGiftCachedBooks</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">4/8</span></td>
+      <td style="display: none;" data-ice="size">2102 byte</td>
+      <td style="display: none;" data-ice="lines">101</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:12:03 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-member-info.js.html#errorLines=22,36,76,84">src/apis/get-member-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getMemberInfo">getMemberInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">6/10</span></td>
+      <td style="display: none;" data-ice="size">3010 byte</td>
+      <td style="display: none;" data-ice="lines">140</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:14:22 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-skin-list.js.html#errorLines=11">src/apis/get-skin-list.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getSkinList">getSkinList</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1003 byte</td>
+      <td style="display: none;" data-ice="lines">43</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:15:17 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-skin-state.js.html#errorLines=9">src/apis/get-skin-state.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getSkinState">getSkinState</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1666 byte</td>
+      <td style="display: none;" data-ice="lines">62</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:22:56 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-third-part-user-info.js.html#errorLines=96">src/apis/get-third-part-user-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getThirdPartUserInfo">getThirdPartUserInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">90 %</span><span data-ice="coverageCount" class="coverage-count">9/10</span></td>
+      <td style="display: none;" data-ice="size">3872 byte</td>
+      <td style="display: none;" data-ice="lines">178</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:22:47 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/get-user-info.js.html#errorLines=112,92">src/apis/get-user-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-getUserInfo">getUserInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">77 %</span><span data-ice="coverageCount" class="coverage-count">7/9</span></td>
+      <td style="display: none;" data-ice="size">3647 byte</td>
+      <td style="display: none;" data-ice="lines">176</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:24:25 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/gift-selected-book.js.html#errorLines=11,7">src/apis/gift-selected-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-giftSelectedBooks">giftSelectedBooks</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">799 byte</td>
+      <td style="display: none;" data-ice="lines">41</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:25:00 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/hidden-app-nav.js.html#errorLines=4,8">src/apis/hidden-app-nav.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-hiddenAppNav">hiddenAppNav</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">834 byte</td>
+      <td style="display: none;" data-ice="lines">41</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:25:43 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/hide-loading-view.js.html">src/apis/hide-loading-view.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-hideLoadingView">hideLoadingView</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">776 byte</td>
+      <td style="display: none;" data-ice="lines">38</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:26:47 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/is-call-app-url.js.html#errorLines=11,21,6">src/apis/is-call-app-url.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-isCallAppUrl">isCallAppUrl</a></span></td>
+      <td class="coverage"><span data-ice="coverage">25 %</span><span data-ice="coverageCount" class="coverage-count">1/4</span></td>
+      <td style="display: none;" data-ice="size">1664 byte</td>
+      <td style="display: none;" data-ice="lines">67</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/is-need-notify-no-wifi.js.html">src/apis/is-need-notify-no-wifi.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-isNeedNotifyNoWifi">isNeedNotifyNoWifi</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">911 byte</td>
+      <td style="display: none;" data-ice="lines">36</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:37:29 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/navigation-app.js.html#errorLines=4">src/apis/navigation-app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-navigationApp">navigationApp</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">983 byte</td>
+      <td style="display: none;" data-ice="lines">44</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:41:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/navigation-preference-set.js.html#errorLines=4,6">src/apis/navigation-preference-set.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-navigationPreferenceSet">navigationPreferenceSet</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">962 byte</td>
+      <td style="display: none;" data-ice="lines">42</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:42:23 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/navigation-tab-browser.js.html#errorLines=4,6">src/apis/navigation-tab-browser.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-navigationTabBrowser">navigationTabBrowser</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1493 byte</td>
+      <td style="display: none;" data-ice="lines">67</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:44:49 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/notify-back-to-view.js.html#errorLines=23,29">src/apis/notify-back-to-view.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-notifyBackToView">notifyBackToView</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">1582 byte</td>
+      <td style="display: none;" data-ice="lines">65</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:46:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/notify-book-cover-finish.js.html#errorLines=8">src/apis/notify-book-cover-finish.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-notifyBookCoverFinish">notifyBookCoverFinish</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">2680 byte</td>
+      <td style="display: none;" data-ice="lines">82</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:47:20 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/notify-refresh-finish.js.html">src/apis/notify-refresh-finish.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-notifyRefreshFinish">notifyRefreshFinish</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">749 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:47:56 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/notify-skin-detail-finish.js.html#errorLines=7">src/apis/notify-skin-detail-finish.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-notifySkinDetailFinish">notifySkinDetailFinish</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">3401 byte</td>
+      <td style="display: none;" data-ice="lines">132</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:49:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-activity-send-share.js.html#errorLines=20">src/apis/open-activity-send-share.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openActivitySendShare">openActivitySendShare</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">2/3</span></td>
+      <td style="display: none;" data-ice="size">1862 byte</td>
+      <td style="display: none;" data-ice="lines">65</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:50:06 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-app-book-class-page.js.html">src/apis/open-app-book-class-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openAppBookClassPage">openAppBookClassPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">992 byte</td>
+      <td style="display: none;" data-ice="lines">43</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:51:06 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-app-book-make-comment.js.html">src/apis/open-app-book-make-comment.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openAppBookMakeComment">openAppBookMakeComment</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">972 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:52:46 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-app-tab-web-page.js.html#errorLines=8">src/apis/open-app-tab-web-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openAppTabWebPage">openAppTabWebPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1332 byte</td>
+      <td style="display: none;" data-ice="lines">58</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:54:33 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-audio-book.js.html#errorLines=11">src/apis/open-audio-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openAudioBook">openAudioBook</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1481 byte</td>
+      <td style="display: none;" data-ice="lines">58</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:55:38 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-catalog.js.html#errorLines=12">src/apis/open-book-catalog.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookCatalog">openBookCatalog</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1410 byte</td>
+      <td style="display: none;" data-ice="lines">62</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:56:50 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-comment-detail.js.html">src/apis/open-book-comment-detail.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookCommentDetail">openBookCommentDetail</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">2652 byte</td>
+      <td style="display: none;" data-ice="lines">85</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:57:40 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-comment-list.js.html#errorLines=11">src/apis/open-book-comment-list.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookCommentList">openBookCommentList</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1501 byte</td>
+      <td style="display: none;" data-ice="lines">53</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:58:19 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-cover.js.html#errorLines=15">src/apis/open-book-cover.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookCover">openBookCover</a></span></td>
+      <td class="coverage"><span data-ice="coverage">83 %</span><span data-ice="coverageCount" class="coverage-count">5/6</span></td>
+      <td style="display: none;" data-ice="size">3893 byte</td>
+      <td style="display: none;" data-ice="lines">159</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 06:59:52 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-shelf.js.html#errorLines=11,7">src/apis/open-book-shelf.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookShelf">openBookShelf</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1147 byte</td>
+      <td style="display: none;" data-ice="lines">49</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:00:42 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-store.js.html">src/apis/open-book-store.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookStore">openBookStore</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">4/4</span></td>
+      <td style="display: none;" data-ice="size">2159 byte</td>
+      <td style="display: none;" data-ice="lines">104</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:01:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-book-to-reward.js.html#errorLines=72,76,82">src/apis/open-book-to-reward.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openBookToReward">openBookToReward</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">6/9</span></td>
+      <td style="display: none;" data-ice="size">2560 byte</td>
+      <td style="display: none;" data-ice="lines">119</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:02:14 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-commonweal-detail.js.html#errorLines=11,7">src/apis/open-commonweal-detail.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openCommonwealDetail">openCommonwealDetail</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1293 byte</td>
+      <td style="display: none;" data-ice="lines">57</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:03:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-commonweal-task.js.html#errorLines=11,7">src/apis/open-commonweal-task.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openCommonwealTask">openCommonwealTask</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1130 byte</td>
+      <td style="display: none;" data-ice="lines">48</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:03:33 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-fans-band.js.html">src/apis/open-fans-band.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openFansBand">openFansBand</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">709 byte</td>
+      <td style="display: none;" data-ice="lines">31</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:04:29 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-login-activity.js.html#errorLines=36,41">src/apis/open-login-activity.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openLoginActivity">openLoginActivity</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">4/6</span></td>
+      <td style="display: none;" data-ice="size">1578 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:07:54 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-monthly-area.js.html">src/apis/open-monthly-area.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openMonthlyArea">openMonthlyArea</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">997 byte</td>
+      <td style="display: none;" data-ice="lines">42</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:08:39 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-native-test.js.html">src/apis/open-native-test.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openNativeTest">openNativeTest</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">3/3</span></td>
+      <td style="display: none;" data-ice="size">1916 byte</td>
+      <td style="display: none;" data-ice="lines">81</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:09:06 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-purchased-chapter.js.html#errorLines=7">src/apis/open-purchased-chapter.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openPurchasedChapter">openPurchasedChapter</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">873 byte</td>
+      <td style="display: none;" data-ice="lines">38</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:09:46 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-recharge-page.js.html#errorLines=8">src/apis/open-recharge-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openRechargePage">openRechargePage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">860 byte</td>
+      <td style="display: none;" data-ice="lines">39</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:10:55 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-reward-to-reply.js.html#errorLines=10,15">src/apis/open-reward-to-reply.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openRewardToReply">openRewardToReply</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1194 byte</td>
+      <td style="display: none;" data-ice="lines">51</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:11:27 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-send-share-data.js.html">src/apis/open-send-share-data.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openSendShareData">openSendShareData</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">928 byte</td>
+      <td style="display: none;" data-ice="lines">40</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:11:56 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-sign-in-page.js.html">src/apis/open-sign-in-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openSignInPage">openSignInPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">765 byte</td>
+      <td style="display: none;" data-ice="lines">36</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:12:38 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-skin-detail.js.html#errorLines=13,20">src/apis/open-skin-detail.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openSkinDetail">openSkinDetail</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1708 byte</td>
+      <td style="display: none;" data-ice="lines">73</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:14:07 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-skin-mall.js.html">src/apis/open-skin-mall.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openSkinMall">openSkinMall</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1015 byte</td>
+      <td style="display: none;" data-ice="lines">48</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:32:21 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-talk-detail-page.js.html#errorLines=13,8">src/apis/open-talk-detail-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openTalkDetailPage">openTalkDetailPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1367 byte</td>
+      <td style="display: none;" data-ice="lines">55</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:35:20 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-topic-detail-page.js.html#errorLines=13,8">src/apis/open-topic-detail-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openTopicDetailPage">openTopicDetailPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1497 byte</td>
+      <td style="display: none;" data-ice="lines">56</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:36:27 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/open-web-page.js.html#errorLines=63,81,92">src/apis/open-web-page.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-openCouponInfo">openCouponInfo</a></span>
+<span><a href="variable/index.html#static-variable-openWebPage">openWebPage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">62 %</span><span data-ice="coverageCount" class="coverage-count">5/8</span></td>
+      <td style="display: none;" data-ice="size">3927 byte</td>
+      <td style="display: none;" data-ice="lines">184</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:37:39 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/paste.js.html#errorLines=11,5">src/apis/paste.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-paste">paste</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1197 byte</td>
+      <td style="display: none;" data-ice="lines">54</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:39:01 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/read-original-book.js.html#errorLines=29">src/apis/read-original-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-readOriginalBook">readOriginalBook</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">2/3</span></td>
+      <td style="display: none;" data-ice="size">1714 byte</td>
+      <td style="display: none;" data-ice="lines">80</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:40:19 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/read-pay-book.js.html#errorLines=8">src/apis/read-pay-book.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-readPayBook">readPayBook</a></span></td>
+      <td class="coverage"><span data-ice="coverage">75 %</span><span data-ice="coverageCount" class="coverage-count">3/4</span></td>
+      <td style="display: none;" data-ice="size">5320 byte</td>
+      <td style="display: none;" data-ice="lines">200</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:40:51 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/save-ticket-info.js.html#errorLines=4">src/apis/save-ticket-info.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-saveTicketInfo">saveTicketInfo</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1223 byte</td>
+      <td style="display: none;" data-ice="lines">49</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:41:52 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/set-action-bar-color.js.html#errorLines=9">src/apis/set-action-bar-color.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-setActionBarColor">setActionBarColor</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">748 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:42:37 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/set-action-bar-title-alpha.js.html#errorLines=9">src/apis/set-action-bar-title-alpha.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-setActionBarTitleAlpha">setActionBarTitleAlpha</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">767 byte</td>
+      <td style="display: none;" data-ice="lines">37</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:43:48 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/set-curimgclor.js.html#errorLines=4">src/apis/set-curimgclor.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-setCurimgcolor">setCurimgcolor</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1006 byte</td>
+      <td style="display: none;" data-ice="lines">45</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:44:54 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/set-web-longclick-enable.js.html">src/apis/set-web-longclick-enable.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-setWebLongClickEnable">setWebLongClickEnable</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">665 byte</td>
+      <td style="display: none;" data-ice="lines">31</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:45:49 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/share-image.js.html#errorLines=12">src/apis/share-image.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-shareImage">shareImage</a></span></td>
+      <td class="coverage"><span data-ice="coverage">66 %</span><span data-ice="coverageCount" class="coverage-count">2/3</span></td>
+      <td style="display: none;" data-ice="size">1174 byte</td>
+      <td style="display: none;" data-ice="lines">52</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:46:38 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/share-my-commonweal.js.html#errorLines=7">src/apis/share-my-commonweal.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-shareMyCommonweal">shareMyCommonweal</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1052 byte</td>
+      <td style="display: none;" data-ice="lines">47</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:47:31 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/share-url.js.html#errorLines=11,15,7">src/apis/share-url.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-shareUrl">shareUrl</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">3/6</span></td>
+      <td style="display: none;" data-ice="size">3249 byte</td>
+      <td style="display: none;" data-ice="lines">119</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:48:32 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-app-navigation-title.js.html">src/apis/show-app-navigation-title.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showAppNavigationTitle">showAppNavigationTitle</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">933 byte</td>
+      <td style="display: none;" data-ice="lines">36</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:49:56 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-calendar.js.html#errorLines=23,37">src/apis/show-calendar.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showCalendar">showCalendar</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">1784 byte</td>
+      <td style="display: none;" data-ice="lines">82</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:50:43 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-dialog.js.html#errorLines=92">src/apis/show-dialog.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showDialog">showDialog</a></span></td>
+      <td class="coverage"><span data-ice="coverage">87 %</span><span data-ice="coverageCount" class="coverage-count">7/8</span></td>
+      <td style="display: none;" data-ice="size">3234 byte</td>
+      <td style="display: none;" data-ice="lines">156</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:52:00 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-gift-pay-component.js.html#errorLines=6">src/apis/show-gift-pay-component.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showGiftPayComponent">showGiftPayComponent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">716 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-loading-view.js.html">src/apis/show-loading-view.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showLoadingView">showLoadingView</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">874 byte</td>
+      <td style="display: none;" data-ice="lines">44</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:52:47 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-menu-with-bid.js.html">src/apis/show-menu-with-bid.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showMenuWithBID">showMenuWithBID</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1048 byte</td>
+      <td style="display: none;" data-ice="lines">42</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:53:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/show-skin-download-btn.js.html">src/apis/show-skin-download-btn.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-showSkinDownloadBtn">showSkinDownloadBtn</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">2/2</span></td>
+      <td style="display: none;" data-ice="size">1740 byte</td>
+      <td style="display: none;" data-ice="lines">57</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:54:10 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/toast.js.html#errorLines=7">src/apis/toast.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-toast">toast</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">1261 byte</td>
+      <td style="display: none;" data-ice="lines">51</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:55:31 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/update-book-source-rid.js.html#errorLines=8">src/apis/update-book-source-rid.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-updateBookSourceRid">updateBookSourceRid</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">2002 byte</td>
+      <td style="display: none;" data-ice="lines">83</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:55:37 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/vote-month-ticket.js.html#errorLines=22,36">src/apis/vote-month-ticket.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-voteMonthTicket">voteMonthTicket</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">1774 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 07:59:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/apis/vote-recommend-ticket.js.html#errorLines=22,36">src/apis/vote-recommend-ticket.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-voteRecommendTicket">voteRecommendTicket</a></span></td>
+      <td class="coverage"><span data-ice="coverage">60 %</span><span data-ice="coverageCount" class="coverage-count">3/5</span></td>
+      <td style="display: none;" data-ice="size">1809 byte</td>
+      <td style="display: none;" data-ice="lines">75</td>
+      <td style="display: none;" data-ice="updated">2019-04-04 08:00:02 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/bootstrap.js.html#errorLines=14,30">src/bootstrap.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-bootstrap">bootstrap</a></span></td>
+      <td class="coverage"><span data-ice="coverage">33 %</span><span data-ice="coverageCount" class="coverage-count">1/3</span></td>
+      <td style="display: none;" data-ice="size">1600 byte</td>
+      <td style="display: none;" data-ice="lines">59</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/cmds/index.js.html#errorLines=185,388,393,398,403,408,413,418,423,438,443,448,453,458,463,468,473,710,715,720,725,730,735,740,745,750,755,760,765,770,775,780,785,790,795,800,805,810,815,820,825,830,835,840,845,850,855,860,865,870,875,880,885,890,895,900,905">src/constants/cmds/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-CMD_ACTION_BAR_SHOW">CMD_ACTION_BAR_SHOW</a></span>
+<span><a href="variable/index.html#static-variable-CMD_ADD_APP_BOOK_MARK">CMD_ADD_APP_BOOK_MARK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_ALLOW_PULL_REFRESH">CMD_ALLOW_PULL_REFRESH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_AUTHOR_HOME_FINISHED">CMD_AUTHOR_HOME_FINISHED</a></span>
+<span><a href="variable/index.html#static-variable-CMD_BACK_ACTION">CMD_BACK_ACTION</a></span>
+<span><a href="variable/index.html#static-variable-CMD_BOOKSTORE_VERIFY">CMD_BOOKSTORE_VERIFY</a></span>
+<span><a href="variable/index.html#static-variable-CMD_BROWSE_IMAGES">CMD_BROWSE_IMAGES</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APPLY_SKIN">CMD_CALL_APPLY_SKIN</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APP_AUTH">CMD_CALL_APP_AUTH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_BOOK">CMD_CALL_APP_BUY_BOOK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_MONTHLY">CMD_CALL_APP_BUY_MONTHLY</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APP_COMMENT_LIST_FINISH">CMD_CALL_APP_COMMENT_LIST_FINISH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH">CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_CANCEL_DOWNLOAD_APP">CMD_CALL_CANCEL_DOWNLOAD_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_DOWNLOAD_APP">CMD_CALL_DOWNLOAD_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_INVOKE_APP">CMD_CALL_INVOKE_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_IS_INSTALL_APP">CMD_CALL_IS_INSTALL_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_LOGIN_BIND_TAOBAO">CMD_CALL_LOGIN_BIND_TAOBAO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_PAUSE_DOWNLOAD_APP">CMD_CALL_PAUSE_DOWNLOAD_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_BOOKSHELF_BANNER">CMD_CALL_REFRESH_BOOKSHELF_BANNER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_PERSONAL_ACCOUNT">CMD_CALL_REFRESH_PERSONAL_ACCOUNT</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CALL_RESUME_DOWNLOAD_APP">CMD_CALL_RESUME_DOWNLOAD_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CHANGE_LOGIN_USER">CMD_CHANGE_LOGIN_USER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CHANGE_TITLE_BACKGROUND">CMD_CHANGE_TITLE_BACKGROUND</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CHECK_DOWNLOAD_APP_STATE">CMD_CHECK_DOWNLOAD_APP_STATE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CLICK_REPLY_COMMENT">CMD_CLICK_REPLY_COMMENT</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CLOSE_LOADING">CMD_CLOSE_LOADING</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CONTROL_LOADING">CMD_CONTROL_LOADING</a></span>
+<span><a href="variable/index.html#static-variable-CMD_CONTROL_WEB_PAGE">CMD_CONTROL_WEB_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_COPY">CMD_COPY</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_ACTION_BAR_SIZE">CMD_GET_ACTION_BAR_SIZE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_ALIPAY_AUTH_CODE">CMD_GET_ALIPAY_AUTH_CODE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_APP_INFO">CMD_GET_APP_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_BOOK_CURRENT_CHAPTER_INDEX">CMD_GET_BOOK_CURRENT_CHAPTER_INDEX</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARK">CMD_GET_BOOK_MARK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARKS">CMD_GET_BOOK_MARKS</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_DOWNLOAD_BOOK_INFO">CMD_GET_DOWNLOAD_BOOK_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_GIFT_BOOK_SHELF_MARK">CMD_GET_GIFT_BOOK_SHELF_MARK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_GIFT_CACHED_BOOKS">CMD_GET_GIFT_CACHED_BOOKS</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_MEMBER_INFO">CMD_GET_MEMBER_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_SKIN_LIST">CMD_GET_SKIN_LIST</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_SKIN_STATE">CMD_GET_SKIN_STATE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_THIRD_PART_USERINFO">CMD_GET_THIRD_PART_USERINFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GET_USER_INFO">CMD_GET_USER_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_GIFT_SELECTED_BOOK">CMD_GIFT_SELECTED_BOOK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_HIDDEN_APP_NAV">CMD_HIDDEN_APP_NAV</a></span>
+<span><a href="variable/index.html#static-variable-CMD_HIDE_LOADING_VIEW">CMD_HIDE_LOADING_VIEW</a></span>
+<span><a href="variable/index.html#static-variable-CMD_IS_CALL_APP_URL">CMD_IS_CALL_APP_URL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_IS_NEED_NOTIFY_NO_WIFI">CMD_IS_NEED_NOTIFY_NO_WIFI</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NAVIGATION_APP">CMD_NAVIGATION_APP</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NAVIGATION_PREFERENCE_SET">CMD_NAVIGATION_PREFERENCE_SET</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NAVIGATION_TAB_BROWSER">CMD_NAVIGATION_TAB_BROWSER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NOTIFY_BACK_TO_VIEW">CMD_NOTIFY_BACK_TO_VIEW</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NOTIFY_BOOK_COVER_FINISH">CMD_NOTIFY_BOOK_COVER_FINISH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NOTIFY_REFRESH_FINISH">CMD_NOTIFY_REFRESH_FINISH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_NOTIFY_SKIN_DETAIL_FINISH">CMD_NOTIFY_SKIN_DETAIL_FINISH</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_ACTIVITY_SEND_SHARE">CMD_OPEN_ACTIVITY_SEND_SHARE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_CLASS_PAGE">CMD_OPEN_APP_BOOK_CLASS_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_MAKE_COMMENT">CMD_OPEN_APP_BOOK_MAKE_COMMENT</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_APP_TAB_WEB_PAGE">CMD_OPEN_APP_TAB_WEB_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_AUDIO_BOOK">CMD_OPEN_AUDIO_BOOK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_CATALOG">CMD_OPEN_BOOK_CATALOG</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_DETAIL">CMD_OPEN_BOOK_COMMENT_DETAIL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_LIST">CMD_OPEN_BOOK_COMMENT_LIST</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COVER">CMD_OPEN_BOOK_COVER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_SHELF">CMD_OPEN_BOOK_SHELF</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_STORE">CMD_OPEN_BOOK_STORE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_TO_REWARD">CMD_OPEN_BOOK_TO_REWARD</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_DETAIL">CMD_OPEN_COMMONWEAL_DETAIL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_TASK">CMD_OPEN_COMMONWEAL_TASK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_COUPON_INFO">CMD_OPEN_COUPON_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_FANS_BAND">CMD_OPEN_FANS_BAND</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_LOGIN_ACTIVITY">CMD_OPEN_LOGIN_ACTIVITY</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_MONTHLY_AREA">CMD_OPEN_MONTHLY_AREA</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_NATIVE_TEST">CMD_OPEN_NATIVE_TEST</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_PURCHASED_CHAPTER">CMD_OPEN_PURCHASED_CHAPTER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_RECHARGE_PAGE">CMD_OPEN_RECHARGE_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_REWARD_TO_REPLY">CMD_OPEN_REWARD_TO_REPLY</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_SEND_SHARE_DATA">CMD_OPEN_SEND_SHARE_DATA</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_SIGN_IN_PAGE">CMD_OPEN_SIGN_IN_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_DETAIL">CMD_OPEN_SKIN_DETAIL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_MALL">CMD_OPEN_SKIN_MALL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_TALK_DETAIL_PAGE">CMD_OPEN_TALK_DETAIL_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_TOPIC_DETAIL_PAGE">CMD_OPEN_TOPIC_DETAIL_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_OPEN_WEB_PAGE">CMD_OPEN_WEB_PAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_PASTE">CMD_PASTE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_READ_BOOK">CMD_READ_BOOK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_READ_ORIGINAL_BOOK">CMD_READ_ORIGINAL_BOOK</a></span>
+<span><a href="variable/index.html#static-variable-CMD_REGISTER_APP_DOWNLOAD_LISTENER">CMD_REGISTER_APP_DOWNLOAD_LISTENER</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SAVE_TICKET_INFO">CMD_SAVE_TICKET_INFO</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_COLOR">CMD_SET_ACTIONBAR_COLOR</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_TITLE_ALPHA">CMD_SET_ACTIONBAR_TITLE_ALPHA</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SET_CURIMGCOLOR">CMD_SET_CURIMGCOLOR</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SET_WEB_LONGCLICK_ENABLE">CMD_SET_WEB_LONGCLICK_ENABLE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHARE">CMD_SHARE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHARE_IMAGE">CMD_SHARE_IMAGE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHARE_MY_COMMONWEAL">CMD_SHARE_MY_COMMONWEAL</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_APP_NAVIGATION_TITLE">CMD_SHOW_APP_NAVIGATION_TITLE</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_CALENDAR">CMD_SHOW_CALENDAR</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_DIALOG">CMD_SHOW_DIALOG</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_ERROR">CMD_SHOW_ERROR</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_GIFT_PAY_COMPONENT">CMD_SHOW_GIFT_PAY_COMPONENT</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_LOADING_VIEW">CMD_SHOW_LOADING_VIEW</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_MENU_WITH_BID">CMD_SHOW_MENU_WITH_BID</a></span>
+<span><a href="variable/index.html#static-variable-CMD_SHOW_SKIN_DOWNLOAD_BTN">CMD_SHOW_SKIN_DOWNLOAD_BTN</a></span>
+<span><a href="variable/index.html#static-variable-CMD_TOAST">CMD_TOAST</a></span>
+<span><a href="variable/index.html#static-variable-CMD_UPDATE_BOOK_SOURCE_RID">CMD_UPDATE_BOOK_SOURCE_RID</a></span>
+<span><a href="variable/index.html#static-variable-CMD_VOTE_MONTH_TICKET">CMD_VOTE_MONTH_TICKET</a></span>
+<span><a href="variable/index.html#static-variable-CMD_VOTE_RECOMMEND_TICKET">CMD_VOTE_RECOMMEND_TICKET</a></span></td>
+      <td class="coverage"><span data-ice="coverage">47 %</span><span data-ice="coverageCount" class="coverage-count">52/109</span></td>
+      <td style="display: none;" data-ice="size">26026 byte</td>
+      <td style="display: none;" data-ice="lines">918</td>
+      <td style="display: none;" data-ice="updated">2019-04-06 10:35:43 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/errors/index.js.html">src/constants/errors/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-ERR_API_EXCEPTION">ERR_API_EXCEPTION</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_FAILED">ERR_API_FAILED</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_INVALID_PARAMS">ERR_API_INVALID_PARAMS</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_INVALID_RESULT">ERR_API_INVALID_RESULT</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_NO_PERMISSION">ERR_API_NO_PERMISSION</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_TIMEOUT">ERR_API_TIMEOUT</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_UNAVAILABLE">ERR_API_UNAVAILABLE</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_UNKNOWN">ERR_API_UNKNOWN</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_USER_CANCELLED">ERR_API_USER_CANCELLED</a></span>
+<span><a href="variable/index.html#static-variable-ERR_API_USER_DENIED">ERR_API_USER_DENIED</a></span>
+<span><a href="variable/index.html#static-variable-ERR_INVALID_UA">ERR_INVALID_UA</a></span>
+<span><a href="variable/index.html#static-variable-ERR_UNKNOWN">ERR_UNKNOWN</a></span>
+<span><a href="variable/index.html#static-variable-WV_ERRORS_TO_INTERNAL_MAP">WV_ERRORS_TO_INTERNAL_MAP</a></span>
+<span><a href="variable/index.html#static-variable-WV_SUCCESS_CODES">WV_SUCCESS_CODES</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">17/17</span></td>
+      <td style="display: none;" data-ice="size">5926 byte</td>
+      <td style="display: none;" data-ice="lines">187</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/globals/index.js.html">src/constants/globals/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_PREFIX">GLOBAL_CALLBACK_PREFIX</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_SET">GLOBAL_CALLBACK_SET</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_ENV_NAME">GLOBAL_ENV_NAME</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME">GLOBAL_LIB_NAME</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_CAP">GLOBAL_LIB_NAME_CAP</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_KEBAB">GLOBAL_LIB_NAME_KEBAB</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG">GLOBAL_PRESET_CONFIG</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG_KEY">GLOBAL_PRESET_CONFIG_KEY</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_READY_HOOK_NAME">GLOBAL_READY_HOOK_NAME</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">9/9</span></td>
+      <td style="display: none;" data-ice="size">2133 byte</td>
+      <td style="display: none;" data-ice="lines">92</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/index.js.html">src/constants/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">233 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/internals/index.js.html#errorLines=26">src/constants/internals/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY">BRIDGE_NAME_LEGACY</a></span>
+<span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY_TMREADER">BRIDGE_NAME_LEGACY_TMREADER</a></span>
+<span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_DELAY">BRIDGE_REQUEST_DELAY</a></span>
+<span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_TIMEOUT">BRIDGE_REQUEST_TIMEOUT</a></span>
+<span><a href="variable/index.html#static-variable-CLIENT_EVENT">CLIENT_EVENT</a></span>
+<span><a href="variable/index.html#static-variable-DEFAULT_API_TIMEOUT">DEFAULT_API_TIMEOUT</a></span>
+<span><a href="variable/index.html#static-variable-EVT_READY">EVT_READY</a></span>
+<span><a href="variable/index.html#static-variable-GLOBAL_EVENTS_STATUS_ATTR">GLOBAL_EVENTS_STATUS_ATTR</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_API_SUPPORTS">INTERNAL_API_SUPPORTS</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_CLIENT_EVENT">INTERNAL_CLIENT_EVENT</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_CONFIG">INTERNAL_CONFIG</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_IS_ENV_READY">INTERNAL_IS_ENV_READY</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_IS_LIB_READY">INTERNAL_IS_LIB_READY</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_PUSH">INTERNAL_PUSH</a></span>
+<span><a href="variable/index.html#static-variable-INTERNAL_RAW_ERROR">INTERNAL_RAW_ERROR</a></span>
+<span><a href="variable/index.html#static-variable-MINI_ALIPAY_EVENT">MINI_ALIPAY_EVENT</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_ANDROID">SUPPORT_ANDROID</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_IOS">SUPPORT_IOS</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_ALIPAY_SQREADER">SUPPORT_MINIPROGRAM_ALIPAY_SQREADER</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_TB_TMREADER">SUPPORT_MINIPROGRAM_TB_TMREADER</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE">SUPPORT_WINDVANE</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID">SUPPORT_WINDVANE_ANDROID</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID_TMREADER">SUPPORT_WINDVANE_ANDROID_TMREADER</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS">SUPPORT_WINDVANE_IOS</a></span>
+<span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS_TMREADER">SUPPORT_WINDVANE_IOS_TMREADER</a></span></td>
+      <td class="coverage"><span data-ice="coverage">96 %</span><span data-ice="coverageCount" class="coverage-count">24/25</span></td>
+      <td style="display: none;" data-ice="size">3476 byte</td>
+      <td style="display: none;" data-ice="lines">143</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/constants/wv-ios/index.js.html">src/constants/wv-ios/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_HOME">MINI_MED_ALIPAY_HOME</a></span>
+<span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_INFO">MINI_MED_ALIPAY_INFO</a></span>
+<span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_NAVIGATOR">MINI_MED_ALIPAY_NAVIGATOR</a></span>
+<span><a href="variable/index.html#static-variable-MINI_MED_TM_NAVIGATOR">MINI_MED_TM_NAVIGATOR</a></span>
+<span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE">SHARE_INFO_CHANGE</a></span>
+<span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE_ALIPAY">SHARE_INFO_CHANGE_ALIPAY</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_BASE_UI">WV_CLS_IOS_BASE_UI</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOKMARK">WV_CLS_IOS_BOOKMARK</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_COVER">WV_CLS_IOS_BOOK_COVER</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_MODEL">WV_CLS_IOS_BOOK_MODEL</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_CUSTOM">WV_CLS_IOS_CUSTOM</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_ENV">WV_CLS_IOS_ENV</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_NAVIGATOR">WV_CLS_IOS_NAVIGATOR</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_IOS_USER">WV_CLS_IOS_USER</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_NAVIGATOR">WV_CLS_TMIOS_NAVIGATOR</a></span>
+<span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_USER">WV_CLS_TMIOS_USER</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">16/16</span></td>
+      <td style="display: none;" data-ice="size">2042 byte</td>
+      <td style="display: none;" data-ice="lines">80</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/index.js.html">src/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">4041 byte</td>
+      <td style="display: none;" data-ice="lines">127</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/prod-disable-console.js.html">src/prod-disable-console.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">423 byte</td>
+      <td style="display: none;" data-ice="lines">17</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 06:15:51 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/clone-json.js.html">src/utils/clone-json.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-cloneJSON">cloneJSON</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">283 byte</td>
+      <td style="display: none;" data-ice="lines">9</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/detect-env.js.html#errorLines=56">src/utils/detect-env.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-detectEnv">detectEnv</a></span></td>
+      <td class="coverage"><span data-ice="coverage">50 %</span><span data-ice="coverageCount" class="coverage-count">1/2</span></td>
+      <td style="display: none;" data-ice="size">2368 byte</td>
+      <td style="display: none;" data-ice="lines">71</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/events/index.js.html">src/utils/events/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-bindEvent">bindEvent</a></span>
+<span><a href="function/index.html#static-function-buildEvent">buildEvent</a></span>
+<span><a href="function/index.html#static-function-clientEventDispatcher">clientEventDispatcher</a></span>
+<span><a href="function/index.html#static-function-dispatchAsEvent">dispatchAsEvent</a></span>
+<span><a href="function/index.html#static-function-dispatchEvent">dispatchEvent</a></span>
+<span><a href="function/index.html#static-function-parseClientEvent">parseClientEvent</a></span>
+<span><a href="function/index.html#static-function-unbindEvent">unbindEvent</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">4915 byte</td>
+      <td style="display: none;" data-ice="lines">192</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/exec/index.js.html#errorLines=186">src/utils/exec/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-decodeResult">decodeResult</a></span>
+<span><a href="function/index.html#static-function-delayedGetLegacyBridge">delayedGetLegacyBridge</a></span>
+<span><a href="function/index.html#static-function-encodeParams">encodeParams</a></span>
+<span><a href="function/index.html#static-function-exec">exec</a></span>
+<span><a href="function/index.html#static-function-execLegacy">execLegacy</a></span>
+<span><a href="function/index.html#static-function-execMiNi">execMiNi</a></span>
+<span><a href="function/index.html#static-function-execWV">execWV</a></span>
+<span><a href="function/index.html#static-function-flushCMDs">flushCMDs</a></span>
+<span><a href="function/index.html#static-function-getApiByCMDName">getApiByCMDName</a></span>
+<span><a href="function/index.html#static-function-getLegacyBridge">getLegacyBridge</a></span>
+<span><a href="function/index.html#static-function-isCMDSupported">isCMDSupported</a></span></td>
+      <td class="coverage"><span data-ice="coverage">91 %</span><span data-ice="coverageCount" class="coverage-count">11/12</span></td>
+      <td style="display: none;" data-ice="size">10527 byte</td>
+      <td style="display: none;" data-ice="lines">397</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 06:30:49 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/generate-api.js.html">src/utils/generate-api.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-generateAPI">generateAPI</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">5/5</span></td>
+      <td style="display: none;" data-ice="size">9069 byte</td>
+      <td style="display: none;" data-ice="lines">331</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 07:21:11 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/generate-sdk-error.js.html">src/utils/generate-sdk-error.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-generateSDKError">generateSDKError</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">321 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/global/index.js.html">src/utils/global/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-bootstrapGlobalEnv">bootstrapGlobalEnv</a></span>
+<span><a href="function/index.html#static-function-bootstrapGlobalLib">bootstrapGlobalLib</a></span>
+<span><a href="function/index.html#static-function-getGlobalEnv">getGlobalEnv</a></span>
+<span><a href="function/index.html#static-function-getGlobalLib">getGlobalLib</a></span>
+<span><a href="function/index.html#static-function-initGlobalEvents">initGlobalEvents</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">3347 byte</td>
+      <td style="display: none;" data-ice="lines">134</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/is-a/index.js.html">src/utils/is-a/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-isArray">isArray</a></span>
+<span><a href="function/index.html#static-function-isFunction">isFunction</a></span>
+<span><a href="function/index.html#static-function-isNumber">isNumber</a></span>
+<span><a href="function/index.html#static-function-isObject">isObject</a></span>
+<span><a href="function/index.html#static-function-isString">isString</a></span>
+<span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">1171 byte</td>
+      <td style="display: none;" data-ice="lines">60</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/log/index.js.html">src/utils/log/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-alert">alert</a></span>
+<span><a href="function/index.html#static-function-debug">debug</a></span>
+<span><a href="function/index.html#static-function-debugAlert">debugAlert</a></span>
+<span><a href="function/index.html#static-function-error">error</a></span>
+<span><a href="function/index.html#static-function-info">info</a></span>
+<span><a href="function/index.html#static-function-log">log</a></span>
+<span><a href="function/index.html#static-function-warn">warn</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">1676 byte</td>
+      <td style="display: none;" data-ice="lines">69</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 07:01:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/utils/unified-error-hander.js.html">src/utils/unified-error-hander.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-unifiedErrorHandler">unifiedErrorHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">1051 byte</td>
+      <td style="display: none;" data-ice="lines">48</td>
+      <td style="display: none;" data-ice="updated">2019-04-03 04:06:24 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

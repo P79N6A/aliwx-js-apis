@@ -1,0 +1,880 @@
+{
+  "coverage": "67.85%",
+  "expectCount": 591,
+  "actualCount": 401,
+  "files": {
+    "src/apis/action-bar-show.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/add-app-book-mark.js": {
+      "expectCount": 9,
+      "actualCount": 4,
+      "undocumentLines": [
+        21,
+        22,
+        23,
+        53,
+        60
+      ]
+    },
+    "src/apis/allow-pull-refresh.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/apis/author-home-finished.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/bookstore-verify.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        48,
+        52
+      ]
+    },
+    "src/apis/browse-images.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        5,
+        19
+      ]
+    },
+    "src/apis/call-app-auth.js": {
+      "expectCount": 6,
+      "actualCount": 4,
+      "undocumentLines": [
+        11,
+        36
+      ]
+    },
+    "src/apis/call-app-buy-book.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/call-app-buy-monthliy.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        22,
+        28
+      ]
+    },
+    "src/apis/call-app-comment-list-finish.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/call-app-talk-detail-page-finish.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/call-apply-skin.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/apis/call-back-action.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        20
+      ]
+    },
+    "src/apis/call-cancel-download-app.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/call-download-app.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        73
+      ]
+    },
+    "src/apis/call-invoke-app.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        59,
+        64
+      ]
+    },
+    "src/apis/call-is-install-app.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        59,
+        63
+      ]
+    },
+    "src/apis/call-login-bind-taobao.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        60,
+        64
+      ]
+    },
+    "src/apis/call-pause-download-app.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/call-refresh-bookshelf-banner.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/call-refresh-personal-account.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/apis/call-register-app-download-listener.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        74
+      ]
+    },
+    "src/apis/call-resume-download-app.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        73
+      ]
+    },
+    "src/apis/change-login-user.js": {
+      "expectCount": 7,
+      "actualCount": 4,
+      "undocumentLines": [
+        10,
+        46,
+        54
+      ]
+    },
+    "src/apis/change-title-background.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/check-download-app-state.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        74
+      ]
+    },
+    "src/apis/click-reply-comment.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/control-loading.js": {
+      "expectCount": 6,
+      "actualCount": 1,
+      "undocumentLines": [
+        8,
+        30,
+        33,
+        70,
+        88
+      ]
+    },
+    "src/apis/control-web-page.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/copy.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/get-action-bar-size.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/get-alipay-auth-code.js": {
+      "expectCount": 7,
+      "actualCount": 4,
+      "undocumentLines": [
+        10,
+        46,
+        54
+      ]
+    },
+    "src/apis/get-app-info.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/get-book-mark.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/get-cover-book-current-chapter-index.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/get-download-book-info.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/get-gift-book-shelf-mark.js": {
+      "expectCount": 9,
+      "actualCount": 4,
+      "undocumentLines": [
+        10,
+        46,
+        54,
+        59,
+        63
+      ]
+    },
+    "src/apis/get-gift-cached-book.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        10,
+        46,
+        54,
+        58
+      ]
+    },
+    "src/apis/get-member-info.js": {
+      "expectCount": 10,
+      "actualCount": 6,
+      "undocumentLines": [
+        22,
+        36,
+        76,
+        84
+      ]
+    },
+    "src/apis/get-skin-list.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        11
+      ]
+    },
+    "src/apis/get-skin-state.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/apis/get-third-part-user-info.js": {
+      "expectCount": 10,
+      "actualCount": 9,
+      "undocumentLines": [
+        96
+      ]
+    },
+    "src/apis/get-user-info.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        92,
+        112
+      ]
+    },
+    "src/apis/gift-selected-book.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        7,
+        11
+      ]
+    },
+    "src/apis/hidden-app-nav.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        4,
+        8
+      ]
+    },
+    "src/apis/hide-loading-view.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/is-call-app-url.js": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        6,
+        11,
+        21
+      ]
+    },
+    "src/apis/is-need-notify-no-wifi.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/navigation-app.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/apis/navigation-preference-set.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        4,
+        6
+      ]
+    },
+    "src/apis/navigation-tab-browser.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        4,
+        6
+      ]
+    },
+    "src/apis/notify-back-to-view.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        23,
+        29
+      ]
+    },
+    "src/apis/notify-book-cover-finish.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/notify-refresh-finish.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/notify-skin-detail-finish.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/open-activity-send-share.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        20
+      ]
+    },
+    "src/apis/open-app-book-class-page.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-app-book-make-comment.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-app-tab-web-page.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/open-audio-book.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        11
+      ]
+    },
+    "src/apis/open-book-catalog.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "src/apis/open-book-comment-detail.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/open-book-comment-list.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        11
+      ]
+    },
+    "src/apis/open-book-cover.js": {
+      "expectCount": 6,
+      "actualCount": 5,
+      "undocumentLines": [
+        15
+      ]
+    },
+    "src/apis/open-book-shelf.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        7,
+        11
+      ]
+    },
+    "src/apis/open-book-store.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "src/apis/open-book-to-reward.js": {
+      "expectCount": 9,
+      "actualCount": 6,
+      "undocumentLines": [
+        72,
+        76,
+        82
+      ]
+    },
+    "src/apis/open-commonweal-detail.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        7,
+        11
+      ]
+    },
+    "src/apis/open-commonweal-task.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        7,
+        11
+      ]
+    },
+    "src/apis/open-fans-band.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-login-activity.js": {
+      "expectCount": 6,
+      "actualCount": 4,
+      "undocumentLines": [
+        36,
+        41
+      ]
+    },
+    "src/apis/open-monthly-area.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-native-test.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/apis/open-purchased-chapter.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/open-recharge-page.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/open-reward-to-reply.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        10,
+        15
+      ]
+    },
+    "src/apis/open-send-share-data.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/open-sign-in-page.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-skin-detail.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        13,
+        20
+      ]
+    },
+    "src/apis/open-skin-mall.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/open-talk-detail-page.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        8,
+        13
+      ]
+    },
+    "src/apis/open-topic-detail-page.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        8,
+        13
+      ]
+    },
+    "src/apis/open-web-page.js": {
+      "expectCount": 8,
+      "actualCount": 5,
+      "undocumentLines": [
+        63,
+        81,
+        92
+      ]
+    },
+    "src/apis/paste.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        5,
+        11
+      ]
+    },
+    "src/apis/read-original-book.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        29
+      ]
+    },
+    "src/apis/read-pay-book.js": {
+      "expectCount": 4,
+      "actualCount": 3,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/save-ticket-info.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/apis/set-action-bar-color.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/apis/set-action-bar-title-alpha.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/apis/set-curimgclor.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/apis/set-web-longclick-enable.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/share-image.js": {
+      "expectCount": 3,
+      "actualCount": 2,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "src/apis/share-my-commonweal.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/share-url.js": {
+      "expectCount": 6,
+      "actualCount": 3,
+      "undocumentLines": [
+        7,
+        11,
+        15
+      ]
+    },
+    "src/apis/show-app-navigation-title.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/show-calendar.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        23,
+        37
+      ]
+    },
+    "src/apis/show-dialog.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        92
+      ]
+    },
+    "src/apis/show-gift-pay-component.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/apis/show-loading-view.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/show-menu-with-bid.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/apis/show-skin-download-btn.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/apis/toast.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "src/apis/update-book-source-rid.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "src/apis/vote-month-ticket.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        22,
+        36
+      ]
+    },
+    "src/apis/vote-recommend-ticket.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        22,
+        36
+      ]
+    },
+    "src/bootstrap.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        14,
+        30
+      ]
+    },
+    "src/constants/cmds/index.js": {
+      "expectCount": 109,
+      "actualCount": 52,
+      "undocumentLines": [
+        185,
+        388,
+        393,
+        398,
+        403,
+        408,
+        413,
+        418,
+        423,
+        438,
+        443,
+        448,
+        453,
+        458,
+        463,
+        468,
+        473,
+        710,
+        715,
+        720,
+        725,
+        730,
+        735,
+        740,
+        745,
+        750,
+        755,
+        760,
+        765,
+        770,
+        775,
+        780,
+        785,
+        790,
+        795,
+        800,
+        805,
+        810,
+        815,
+        820,
+        825,
+        830,
+        835,
+        840,
+        845,
+        850,
+        855,
+        860,
+        865,
+        870,
+        875,
+        880,
+        885,
+        890,
+        895,
+        900,
+        905
+      ]
+    },
+    "src/constants/errors/index.js": {
+      "expectCount": 17,
+      "actualCount": 17,
+      "undocumentLines": []
+    },
+    "src/constants/globals/index.js": {
+      "expectCount": 9,
+      "actualCount": 9,
+      "undocumentLines": []
+    },
+    "src/constants/internals/index.js": {
+      "expectCount": 25,
+      "actualCount": 24,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "src/constants/wv-ios/index.js": {
+      "expectCount": 16,
+      "actualCount": 16,
+      "undocumentLines": []
+    },
+    "src/utils/clone-json.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/detect-env.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        56
+      ]
+    },
+    "src/utils/events/index.js": {
+      "expectCount": 7,
+      "actualCount": 7,
+      "undocumentLines": []
+    },
+    "src/utils/exec/index.js": {
+      "expectCount": 12,
+      "actualCount": 11,
+      "undocumentLines": [
+        186
+      ]
+    },
+    "src/utils/generate-api.js": {
+      "expectCount": 5,
+      "actualCount": 5,
+      "undocumentLines": []
+    },
+    "src/utils/generate-sdk-error.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utils/global/index.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/utils/is-a/index.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/utils/log/index.js": {
+      "expectCount": 7,
+      "actualCount": 7,
+      "undocumentLines": []
+    },
+    "src/utils/unified-error-hander.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "name": "preParamIOS",
+    "filePath": "src/apis/open-activity-send-share.js",
+    "lines": [
+      {
+        "lineNumber": 5,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 6,
+        "line": " * @param {String} params.platform  - 分享的平台,all:全平台;qq:qq分享 (仅android)"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * @param {String} params.shareUrl  - 分享跳转的链接地址"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param {String} params.imgUrl - 分享的图片地址"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {String} params.shareTitle - 分享标题"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {String} params.shareContent - 分享描述内容"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {String} params.shareFrom - 分享的业务来源"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @returns {Promise<*>}"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": "async function preParamIOS(params = {}) {"
+      }
+    ],
+    "codeParams": [
+      "params"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "execMiNi",
+    "filePath": "src/utils/exec/index.js",
+    "lines": [
+      {
+        "lineNumber": 301,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 302,
+        "line": " * 处理小程序的桥"
+      },
+      {
+        "lineNumber": 303,
+        "line": " * @param methodName"
+      },
+      {
+        "lineNumber": 304,
+        "line": " * @param params"
+      },
+      {
+        "lineNumber": 305,
+        "line": " * @returns {Promise.<void>}"
+      },
+      {
+        "lineNumber": 306,
+        "line": " */"
+      },
+      {
+        "lineNumber": 307,
+        "line": "export async function execMiNi({"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "methodName",
+      "params"
+    ]
+  }
+]

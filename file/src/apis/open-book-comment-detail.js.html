@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/apis/open-book-comment-detail.js | @ali/lib-js-sdk</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="js sdk for aliwx"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@ali/lib-js-sdk"><meta property="twitter:description" content="js sdk for aliwx"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrap">bootstrap</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#apis">apis</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-actionBarShow">actionBarShow</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-addAppBookMark">addAppBookMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-allowPullRefresh">allowPullRefresh</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-authorHomeFinished">authorHomeFinished</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-bookstoreVerify">bookstoreVerify</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-browseImages">browseImages</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppAuth">callAppAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppBuyBook">callAppBuyBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppBuyMonthly">callAppBuyMonthly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppCommentListFinish">callAppCommentListFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callAppTalkDetailPageFinish">callAppTalkDetailPageFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callApplySkin">callApplySkin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-back">back</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callCancelDownloadApp">callCancelDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callDownloadApp">callDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-invokeApp">invokeApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isAppInstalled">isAppInstalled</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-loginOrBindTaobao">loginOrBindTaobao</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callPauseDownloadApp">callPauseDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRefreshBookShelfBanner">callRefreshBookShelfBanner</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRefreshPersonalAccount">callRefreshPersonalAccount</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callRegisterAppDownloadListener">callRegisterAppDownloadListener</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-callResumeDownloadApp">callResumeDownloadApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-changeLoginUser">changeLoginUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-changeTitleBackground">changeTitleBackground</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-checkDownloadAppState">checkDownloadAppState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-clickReplyComment">clickReplyComment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-closeLoading">closeLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-controlLoading">controlLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showError">showError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-controlWebPage">controlWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-copy">copy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getActionBarSize">getActionBarSize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getAlipayAuthCode">getAlipayAuthCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getAppInfo">getAppInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getBookMark">getBookMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getBookMarks">getBookMarks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getCoverBookCurrentChapterIndex">getCoverBookCurrentChapterIndex</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getDownloadBookInfo">getDownloadBookInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getGiftBookShelfMark">getGiftBookShelfMark</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getGiftCachedBooks">getGiftCachedBooks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getMemberInfo">getMemberInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getSkinList">getSkinList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getSkinState">getSkinState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getThirdPartUserInfo">getThirdPartUserInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-getUserInfo">getUserInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-giftSelectedBooks">giftSelectedBooks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-hiddenAppNav">hiddenAppNav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-hideLoadingView">hideLoadingView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isCallAppUrl">isCallAppUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-isNeedNotifyNoWifi">isNeedNotifyNoWifi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationApp">navigationApp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationPreferenceSet">navigationPreferenceSet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-navigationTabBrowser">navigationTabBrowser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyBackToView">notifyBackToView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyBookCoverFinish">notifyBookCoverFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifyRefreshFinish">notifyRefreshFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-notifySkinDetailFinish">notifySkinDetailFinish</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openActivitySendShare">openActivitySendShare</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppBookClassPage">openAppBookClassPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppBookMakeComment">openAppBookMakeComment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAppTabWebPage">openAppTabWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openAudioBook">openAudioBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCatalog">openBookCatalog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCommentDetail">openBookCommentDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCommentList">openBookCommentList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookCover">openBookCover</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookShelf">openBookShelf</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookStore">openBookStore</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openBookToReward">openBookToReward</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCommonwealDetail">openCommonwealDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCommonwealTask">openCommonwealTask</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openFansBand">openFansBand</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openLoginActivity">openLoginActivity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openMonthlyArea">openMonthlyArea</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openNativeTest">openNativeTest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openPurchasedChapter">openPurchasedChapter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openRechargePage">openRechargePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openRewardToReply">openRewardToReply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSendShareData">openSendShareData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSignInPage">openSignInPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSkinDetail">openSkinDetail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openSkinMall">openSkinMall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openTalkDetailPage">openTalkDetailPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openTopicDetailPage">openTopicDetailPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openCouponInfo">openCouponInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-openWebPage">openWebPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-paste">paste</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-readOriginalBook">readOriginalBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-readPayBook">readPayBook</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-saveTicketInfo">saveTicketInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setActionBarColor">setActionBarColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setActionBarTitleAlpha">setActionBarTitleAlpha</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setCurimgcolor">setCurimgcolor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-setWebLongClickEnable">setWebLongClickEnable</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareImage">shareImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareMyCommonweal">shareMyCommonweal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-shareUrl">shareUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showAppNavigationTitle">showAppNavigationTitle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showCalendar">showCalendar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showDialog">showDialog</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showGiftPayComponent">showGiftPayComponent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showLoadingView">showLoadingView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showMenuWithBID">showMenuWithBID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-showSkinDownloadBtn">showSkinDownloadBtn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-toast">toast</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-updateBookSourceRid">updateBookSourceRid</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-voteMonthTicket">voteMonthTicket</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-voteRecommendTicket">voteRecommendTicket</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-cmds">constants/cmds</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ACTION_BAR_SHOW">CMD_ACTION_BAR_SHOW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ADD_APP_BOOK_MARK">CMD_ADD_APP_BOOK_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_ALLOW_PULL_REFRESH">CMD_ALLOW_PULL_REFRESH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_AUTHOR_HOME_FINISHED">CMD_AUTHOR_HOME_FINISHED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BACK_ACTION">CMD_BACK_ACTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BOOKSTORE_VERIFY">CMD_BOOKSTORE_VERIFY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_BROWSE_IMAGES">CMD_BROWSE_IMAGES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APPLY_SKIN">CMD_CALL_APPLY_SKIN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_AUTH">CMD_CALL_APP_AUTH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_BOOK">CMD_CALL_APP_BUY_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_BUY_MONTHLY">CMD_CALL_APP_BUY_MONTHLY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_COMMENT_LIST_FINISH">CMD_CALL_APP_COMMENT_LIST_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH">CMD_CALL_APP_TALK_DETAIL_PAGE_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_CANCEL_DOWNLOAD_APP">CMD_CALL_CANCEL_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_DOWNLOAD_APP">CMD_CALL_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_INVOKE_APP">CMD_CALL_INVOKE_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_IS_INSTALL_APP">CMD_CALL_IS_INSTALL_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_LOGIN_BIND_TAOBAO">CMD_CALL_LOGIN_BIND_TAOBAO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_PAUSE_DOWNLOAD_APP">CMD_CALL_PAUSE_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_BOOKSHELF_BANNER">CMD_CALL_REFRESH_BOOKSHELF_BANNER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_REFRESH_PERSONAL_ACCOUNT">CMD_CALL_REFRESH_PERSONAL_ACCOUNT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CALL_RESUME_DOWNLOAD_APP">CMD_CALL_RESUME_DOWNLOAD_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHANGE_LOGIN_USER">CMD_CHANGE_LOGIN_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHANGE_TITLE_BACKGROUND">CMD_CHANGE_TITLE_BACKGROUND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CHECK_DOWNLOAD_APP_STATE">CMD_CHECK_DOWNLOAD_APP_STATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CLICK_REPLY_COMMENT">CMD_CLICK_REPLY_COMMENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CLOSE_LOADING">CMD_CLOSE_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CONTROL_LOADING">CMD_CONTROL_LOADING</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_CONTROL_WEB_PAGE">CMD_CONTROL_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_COPY">CMD_COPY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_ACTION_BAR_SIZE">CMD_GET_ACTION_BAR_SIZE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_ALIPAY_AUTH_CODE">CMD_GET_ALIPAY_AUTH_CODE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_APP_INFO">CMD_GET_APP_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_CURRENT_CHAPTER_INDEX">CMD_GET_BOOK_CURRENT_CHAPTER_INDEX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARK">CMD_GET_BOOK_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_BOOK_MARKS">CMD_GET_BOOK_MARKS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_DOWNLOAD_BOOK_INFO">CMD_GET_DOWNLOAD_BOOK_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_GIFT_BOOK_SHELF_MARK">CMD_GET_GIFT_BOOK_SHELF_MARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_GIFT_CACHED_BOOKS">CMD_GET_GIFT_CACHED_BOOKS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_MEMBER_INFO">CMD_GET_MEMBER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_SKIN_LIST">CMD_GET_SKIN_LIST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_SKIN_STATE">CMD_GET_SKIN_STATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_THIRD_PART_USERINFO">CMD_GET_THIRD_PART_USERINFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GET_USER_INFO">CMD_GET_USER_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_GIFT_SELECTED_BOOK">CMD_GIFT_SELECTED_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_HIDDEN_APP_NAV">CMD_HIDDEN_APP_NAV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_HIDE_LOADING_VIEW">CMD_HIDE_LOADING_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_IS_CALL_APP_URL">CMD_IS_CALL_APP_URL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_IS_NEED_NOTIFY_NO_WIFI">CMD_IS_NEED_NOTIFY_NO_WIFI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_APP">CMD_NAVIGATION_APP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_PREFERENCE_SET">CMD_NAVIGATION_PREFERENCE_SET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NAVIGATION_TAB_BROWSER">CMD_NAVIGATION_TAB_BROWSER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_BACK_TO_VIEW">CMD_NOTIFY_BACK_TO_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_BOOK_COVER_FINISH">CMD_NOTIFY_BOOK_COVER_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_REFRESH_FINISH">CMD_NOTIFY_REFRESH_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_NOTIFY_SKIN_DETAIL_FINISH">CMD_NOTIFY_SKIN_DETAIL_FINISH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_ACTIVITY_SEND_SHARE">CMD_OPEN_ACTIVITY_SEND_SHARE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_CLASS_PAGE">CMD_OPEN_APP_BOOK_CLASS_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_BOOK_MAKE_COMMENT">CMD_OPEN_APP_BOOK_MAKE_COMMENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_APP_TAB_WEB_PAGE">CMD_OPEN_APP_TAB_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_AUDIO_BOOK">CMD_OPEN_AUDIO_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_CATALOG">CMD_OPEN_BOOK_CATALOG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_DETAIL">CMD_OPEN_BOOK_COMMENT_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COMMENT_LIST">CMD_OPEN_BOOK_COMMENT_LIST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_COVER">CMD_OPEN_BOOK_COVER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_SHELF">CMD_OPEN_BOOK_SHELF</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_STORE">CMD_OPEN_BOOK_STORE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_BOOK_TO_REWARD">CMD_OPEN_BOOK_TO_REWARD</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_DETAIL">CMD_OPEN_COMMONWEAL_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COMMONWEAL_TASK">CMD_OPEN_COMMONWEAL_TASK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_COUPON_INFO">CMD_OPEN_COUPON_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_FANS_BAND">CMD_OPEN_FANS_BAND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_LOGIN_ACTIVITY">CMD_OPEN_LOGIN_ACTIVITY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_MONTHLY_AREA">CMD_OPEN_MONTHLY_AREA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_NATIVE_TEST">CMD_OPEN_NATIVE_TEST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_PURCHASED_CHAPTER">CMD_OPEN_PURCHASED_CHAPTER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_RECHARGE_PAGE">CMD_OPEN_RECHARGE_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_REWARD_TO_REPLY">CMD_OPEN_REWARD_TO_REPLY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SEND_SHARE_DATA">CMD_OPEN_SEND_SHARE_DATA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SIGN_IN_PAGE">CMD_OPEN_SIGN_IN_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_DETAIL">CMD_OPEN_SKIN_DETAIL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_SKIN_MALL">CMD_OPEN_SKIN_MALL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_TALK_DETAIL_PAGE">CMD_OPEN_TALK_DETAIL_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_TOPIC_DETAIL_PAGE">CMD_OPEN_TOPIC_DETAIL_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_OPEN_WEB_PAGE">CMD_OPEN_WEB_PAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_PASTE">CMD_PASTE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_READ_BOOK">CMD_READ_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_READ_ORIGINAL_BOOK">CMD_READ_ORIGINAL_BOOK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_REGISTER_APP_DOWNLOAD_LISTENER">CMD_REGISTER_APP_DOWNLOAD_LISTENER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SAVE_TICKET_INFO">CMD_SAVE_TICKET_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_COLOR">CMD_SET_ACTIONBAR_COLOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_ACTIONBAR_TITLE_ALPHA">CMD_SET_ACTIONBAR_TITLE_ALPHA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_CURIMGCOLOR">CMD_SET_CURIMGCOLOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SET_WEB_LONGCLICK_ENABLE">CMD_SET_WEB_LONGCLICK_ENABLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE">CMD_SHARE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE_IMAGE">CMD_SHARE_IMAGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHARE_MY_COMMONWEAL">CMD_SHARE_MY_COMMONWEAL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_APP_NAVIGATION_TITLE">CMD_SHOW_APP_NAVIGATION_TITLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_CALENDAR">CMD_SHOW_CALENDAR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_DIALOG">CMD_SHOW_DIALOG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_ERROR">CMD_SHOW_ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_GIFT_PAY_COMPONENT">CMD_SHOW_GIFT_PAY_COMPONENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_LOADING_VIEW">CMD_SHOW_LOADING_VIEW</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_MENU_WITH_BID">CMD_SHOW_MENU_WITH_BID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_SHOW_SKIN_DOWNLOAD_BTN">CMD_SHOW_SKIN_DOWNLOAD_BTN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_TOAST">CMD_TOAST</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_UPDATE_BOOK_SOURCE_RID">CMD_UPDATE_BOOK_SOURCE_RID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_VOTE_MONTH_TICKET">CMD_VOTE_MONTH_TICKET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CMD_VOTE_RECOMMEND_TICKET">CMD_VOTE_RECOMMEND_TICKET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Command">Command</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-errors">constants/errors</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_EXCEPTION">ERR_API_EXCEPTION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_FAILED">ERR_API_FAILED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_INVALID_PARAMS">ERR_API_INVALID_PARAMS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_INVALID_RESULT">ERR_API_INVALID_RESULT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_NO_PERMISSION">ERR_API_NO_PERMISSION</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_TIMEOUT">ERR_API_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_UNAVAILABLE">ERR_API_UNAVAILABLE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_UNKNOWN">ERR_API_UNKNOWN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_USER_CANCELLED">ERR_API_USER_CANCELLED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_API_USER_DENIED">ERR_API_USER_DENIED</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_INVALID_UA">ERR_INVALID_UA</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-ERR_UNKNOWN">ERR_UNKNOWN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_ERRORS_TO_INTERNAL_MAP">WV_ERRORS_TO_INTERNAL_MAP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_SUCCESS_CODES">WV_SUCCESS_CODES</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ErrorConstant">ErrorConstant</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-globals">constants/globals</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_PREFIX">GLOBAL_CALLBACK_PREFIX</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_CALLBACK_SET">GLOBAL_CALLBACK_SET</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_ENV_NAME">GLOBAL_ENV_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME">GLOBAL_LIB_NAME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_CAP">GLOBAL_LIB_NAME_CAP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_LIB_NAME_KEBAB">GLOBAL_LIB_NAME_KEBAB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG">GLOBAL_PRESET_CONFIG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_PRESET_CONFIG_KEY">GLOBAL_PRESET_CONFIG_KEY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_READY_HOOK_NAME">GLOBAL_READY_HOOK_NAME</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-internals">constants/internals</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY">BRIDGE_NAME_LEGACY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_NAME_LEGACY_TMREADER">BRIDGE_NAME_LEGACY_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_DELAY">BRIDGE_REQUEST_DELAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BRIDGE_REQUEST_TIMEOUT">BRIDGE_REQUEST_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_EVENT">CLIENT_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-DEFAULT_API_TIMEOUT">DEFAULT_API_TIMEOUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EVT_READY">EVT_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-GLOBAL_EVENTS_STATUS_ATTR">GLOBAL_EVENTS_STATUS_ATTR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_API_SUPPORTS">INTERNAL_API_SUPPORTS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_CLIENT_EVENT">INTERNAL_CLIENT_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_CONFIG">INTERNAL_CONFIG</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_IS_ENV_READY">INTERNAL_IS_ENV_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_IS_LIB_READY">INTERNAL_IS_LIB_READY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_PUSH">INTERNAL_PUSH</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERNAL_RAW_ERROR">INTERNAL_RAW_ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_ALIPAY_EVENT">MINI_ALIPAY_EVENT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_ANDROID">SUPPORT_ANDROID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_IOS">SUPPORT_IOS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_ALIPAY_SQREADER">SUPPORT_MINIPROGRAM_ALIPAY_SQREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_MINIPROGRAM_TB_TMREADER">SUPPORT_MINIPROGRAM_TB_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE">SUPPORT_WINDVANE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID">SUPPORT_WINDVANE_ANDROID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_ANDROID_TMREADER">SUPPORT_WINDVANE_ANDROID_TMREADER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS">SUPPORT_WINDVANE_IOS</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SUPPORT_WINDVANE_IOS_TMREADER">SUPPORT_WINDVANE_IOS_TMREADER</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants-wv-ios">constants/wv-ios</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_HOME">MINI_MED_ALIPAY_HOME</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_INFO">MINI_MED_ALIPAY_INFO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_ALIPAY_NAVIGATOR">MINI_MED_ALIPAY_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINI_MED_TM_NAVIGATOR">MINI_MED_TM_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE">SHARE_INFO_CHANGE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SHARE_INFO_CHANGE_ALIPAY">SHARE_INFO_CHANGE_ALIPAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BASE_UI">WV_CLS_IOS_BASE_UI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOKMARK">WV_CLS_IOS_BOOKMARK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_COVER">WV_CLS_IOS_BOOK_COVER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_BOOK_MODEL">WV_CLS_IOS_BOOK_MODEL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_CUSTOM">WV_CLS_IOS_CUSTOM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_ENV">WV_CLS_IOS_ENV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_NAVIGATOR">WV_CLS_IOS_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_IOS_USER">WV_CLS_IOS_USER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_NAVIGATOR">WV_CLS_TMIOS_NAVIGATOR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-WV_CLS_TMIOS_USER">WV_CLS_TMIOS_USER</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cloneJSON">cloneJSON</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-detectEnv">detectEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateAPI">generateAPI</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateSDKError">generateSDKError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unifiedErrorHandler">unifiedErrorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Environment">Environment</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-APIConfig">APIConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-APIConfigs">APIConfigs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-events">utils/events</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bindEvent">bindEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-buildEvent">buildEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clientEventDispatcher">clientEventDispatcher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dispatchAsEvent">dispatchAsEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dispatchEvent">dispatchEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseClientEvent">parseClientEvent</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unbindEvent">unbindEvent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-exec">utils/exec</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-decodeResult">decodeResult</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-delayedGetLegacyBridge">delayedGetLegacyBridge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-encodeParams">encodeParams</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-exec">exec</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execLegacy">execLegacy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execMiNi">execMiNi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-execWV">execWV</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flushCMDs">flushCMDs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getApiByCMDName">getApiByCMDName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLegacyBridge">getLegacyBridge</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isCMDSupported">isCMDSupported</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-global">utils/global</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrapGlobalEnv">bootstrapGlobalEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bootstrapGlobalLib">bootstrapGlobalLib</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getGlobalEnv">getGlobalEnv</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getGlobalLib">getGlobalLib</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-initGlobalEvents">initGlobalEvents</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-is-a">utils/is-a</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isArray">isArray</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isFunction">isFunction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isNumber">isNumber</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isObject">isObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isString">isString</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isUndefined">isUndefined</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils-log">utils/log</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-alert">alert</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-debug">debug</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-debugAlert">debugAlert</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-error">error</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-info">info</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-log">log</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-warn">warn</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/apis/open-book-comment-detail.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Create by &#x7ECF;&#x7B25; on 2018/9/7
+ * Modified by &#x6653;&#x609F; on 2018/10/11
+ */
+
+import {
+  WV_CLS_IOS_NAVIGATOR,
+} from &apos;../constants&apos;;
+import { generateAPI } from &apos;../utils/generate-api&apos;;
+
+/** IOS &#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x6865;&#x6240;&#x9700;&#x53C2;&#x6570;
+ * @param {Object} params &#x4F20;&#x5165;&#x53C2;&#x6570;
+ * @param {string} params.messageId - &#x6D88;&#x606F; id
+ * @param {string} params.contextType - &#x4E0A;&#x4E0B;&#x6587;&#x7C7B;&#x578B;&#xFF1A;
+ *   &apos;book&apos; &#x4E66;&#x7C4D;&#x8BC4;&#x8BBA;&#xFF08;&#x9ED8;&#x8BA4;&#xFF09;
+ *   &apos;topic&apos; &#x4E13;&#x9898;&#x8BC4;&#x8BBA;
+ *   &apos;talk&apos; &#x8BDD;&#x9898;&#x8BC4;&#x8BBA;
+ * @param {string} params.contextId - &#x4E0A;&#x4E0B;&#x6587; id, &#x5982;type=book&#x65F6;&#x6307;&#x7684;&#x5C31;&#x662F;bookId
+*/
+
+/** IOS &#x4F5C;&#x8005;&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x6865;&#x6240;&#x9700;&#x53C2;&#x6570;
+ * @param {Object} params &#x4F20;&#x5165;&#x53C2;&#x6570;
+ * @param {string} params.messageId - &#x6D88;&#x606F; id
+ * @param {string} params.contextType - &#x4E0A;&#x4E0B;&#x6587;&#x7C7B;&#x578B;&#xFF1A;
+ * @param {string} params.source -
+ * @param {string} params.url -
+ * @param {string} params.rootUid -
+ * @param {string} params.authorId -
+*/
+
+/** android &#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x6865;&#x6240;&#x9700;&#x53C2;&#x6570;
+ * @param {Object} params &#x4F20;&#x5165;&#x53C2;&#x6570;
+ * @param {string} params.type - 0:reply(&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x9875;) ,1:comment (&#x6253;&#x5F00;&#x8BC4;&#x8BBA;),  2:detail(&#x6253;&#x5F00;&#x4E66;&#x8BC4;&#x533A;)
+ * @param {string} params.rootMid -
+ * @param {string} params.rootUid -
+ * @param {string} params.url -
+ * @param {string} params.source -
+ * @param {string} params.authorId -
+*/
+async function preParam(params = {}) {
+  return Object.keys(params).reduce((newParams, key) =&gt; {
+    newParams[key] = String(params[key]);
+    return newParams;
+  }, {});
+}
+
+/**
+ * &#x6253;&#x5F00;&#x5BA2;&#x6237;&#x7AEF; &#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x9875;&#xFF08;&#x6709;&#x4E3B;&#x697C; &#x5E76;&#x6709;&#x56DE;&#x590D;&#x7684;&#xFF09;
+ *
+ * &#x652F;&#x6301;&#x5E73;&#x53F0;&#xFF1A;&#x4E66;&#x65D7;Android&#x3001;&#x4E66;&#x65D7;iOS
+ *
+ * @returns {Promise&lt;*&gt;}
+ *
+ * @example
+ * libSQ.exec(&apos;open-book-comment-detail&apos;, {
+ *   params: { messageId: &apos;d6b81686b25a11e8abc06c92bf28e013&apos; }
+ * }).then(function (info) {
+ *   lert(&apos;[from ready][open-book-comment-detail][then] &apos; + JSON.stringify(info, null, 2));
+ * }).catch(function (err) {
+ *   alert(&apos;[from ready][open-book-comment-detail][error] &apos; + JSON.stringify(err, null, 2));
+ * });
+ *
+ *
+ * * ios&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x5DF2;&#x6D4B;&#x8BD5;&#xFF1A;&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#x5BA2;&#x6237;&#x7AEF;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x7279;&#x5B9A;&#x7684;webview&#x6253;&#x5F00;&#xFF0C;&#x6D4B;&#x8BD5;&#x65F6;&#x9700;&#x8981;&#x6539;&#x6389;url&#xFF0C;&#x4ECE;&#x4E66;&#x7C4D;&#x5C01;&#x9762;&#x8FDB;&#x5165;&#xFF0C;&#x6839;&#x636E;param&#x62FC;&#x63A5;&#x6210;url&#x6B63;&#x786E;&#x5373;&#x53EF;
+ * todo: android&#x7684;&#x65B9;&#x6CD5;&#x6839;&#x636E;type&#x4E0D;&#x540C;&#x53EF;&#x6253;&#x5F00;&#x8BC4;&#x8BBA;&#x5217;&#x8868;&#x548C;&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;&#xFF0C;&#x672A;&#x6D4B;&#x8BD5;
+ * ! android&#x6865;&#x7528;&#x4E8E;&#x6253;&#x5F00;&#x8BE6;&#x60C5;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5728;aya&#x9879;&#x76EE;&#x4E2D;&#x53EA;&#x662F;&#x7528;&#x6765;&#x6253;&#x5F00;&#x4F5C;&#x8005;&#x4E3B;&#x9875;&#x7684;&#x8BC4;&#x8BBA;&#x8BE6;&#x60C5;
+ *
+ */
+export const openBookCommentDetail = generateAPI({
+  wv: {
+    ios: {
+      className: WV_CLS_IOS_NAVIGATOR,
+      methodName: &apos;openAppBookCommentDetail&apos;,
+      preParam,
+    },
+  },
+  ios: {
+    preParam,
+    bridgeName: &apos;openAppBookCommentDetail&apos;,
+  },
+  android: {
+    preParam,
+    bridgeName: &apos;openCommentPage&apos;,
+  },
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
